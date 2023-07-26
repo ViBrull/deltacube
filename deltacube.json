@@ -445,7 +445,7 @@
         {
             "name": "Black Creatures 1MV",
             "type": "pool",
-            "count": 2,
+            "count": 1,
             "contents": [
                 "Bloodsoaked Champion",
                 "Okiba Reckoner Raid"
@@ -473,6 +473,7 @@
                 "Tenacious Underdog"
             ]
         },
+        "Orcish Bowmasters",
         "Scrapheap Scrounger",
         "Dark Confidant",
         "Pack Rat",
