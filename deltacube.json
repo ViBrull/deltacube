@@ -329,7 +329,8 @@
                 "Phyrexian Metamorph",
                 "Unctus, Grand Metatect",
                 "Chrome Host Seedshark",
-                "Feywild Caretaker"
+                "Feywild Caretaker",
+                "Horned Loch-Whale"
             ]
         },
         "Urza, Lord High Artificer",
@@ -946,15 +947,16 @@
         {
             "comment": "==========Azorius=========="
         },
-        "Scheming Fence",
         "Soulherder",
         "Teferi, Time Raveler",
         "Teferi, Hero of Dominaria",
         {
             "name": "Azorius Stuff",
             "type": "pool",
-            "count": 2,
+            "count": 3,
             "contents": [
+                "Scheming Fence",
+                "Twining Twins",
                 "Urza, Lord Protector",
                 "Spell Queller",
                 "Pippin, Guard of the Citadel",
