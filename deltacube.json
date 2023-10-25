@@ -653,7 +653,8 @@
                 "Dwarven Forge-Chanter",
                 "Flametongue Yearling",
                 "Goblin Engineer",
-                "Bloodfeather Phoenix"
+                "Bloodfeather Phoenix",
+                "Scalding Viper"
             ]
         },
         "Khenra Spellspear",
@@ -763,15 +764,7 @@
         "Pyroclasm",
         "Reckless Impulse",
         "Shatterskull Smashing",
-        {
-            "name": "Worst Pyroclasms",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Brotherhood's End",
-                "Into the Fire"
-            ]
-        },
+        "Questing Druid",
         "Wheel of Fortune",
         "Fiery Confluence",
         "Wildfire",
