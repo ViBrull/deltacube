@@ -171,7 +171,7 @@
         {
             "name": "Worst White Weenies 3MV",
             "type": "pool",
-            "count": 7,
+            "count": 6,
             "contents": [
                 "Elite Spellbinder",
                 "Skyclave Apparition",
@@ -189,6 +189,7 @@
                 "Boromir, Warden of the Tower"
             ]
         },
+        "Werefox Bodyguard",
         "Brutal Cathar",
         "White Plume Adventurer",
         "Monastery Mentor",
@@ -249,7 +250,8 @@
                 "Lay Down Arms",
                 "Ossification",
                 "Seal from Existence",
-                "Reprieve"
+                "Reprieve",
+                "Stroke of Midnight"
             ]
         },
         {
