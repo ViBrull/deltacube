@@ -1217,9 +1217,8 @@
         {
             "name": "X Creatures",
             "type": "pool",
-            "count": 3,
+            "count": 2,
             "contents": [
-                "Hangarback Walker",
                 "Stonecoil Serpent",
                 "Walking Ballista"
             ]
@@ -1237,20 +1236,6 @@
         "Metalworker",
         "Myr Battlesphere",
         "Blightsteel Colossus",
-        {
-            "name": "Worst Artifact Targets",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Sundering Titan",
-                "Darksteel Colossus",
-                "Platinum Angel",
-                "Platinum Emperion",
-                "Cyberdrive Awakener",
-                "Kaldra Compleat",
-                "Portal to Phyrexia"
-            ]
-        },
         "Emrakul, the Aeons Torn",
         {
             "name": "Worst Eldrazi Targets",
@@ -1278,6 +1263,7 @@
         "Aether Vial",
         "Luxior, Giada's Gift",
         "Manifold Key",
+        "Voltaic Key",
         "Sensei's Divining Top",
         "Shadowspear",
         "Skullclamp",
@@ -1294,7 +1280,9 @@
         "Sword of Fire and Ice",
         "Tangle Wire",
         "Worn Powerstone",
+        "Sonic Screwdriver",
         "Sarevok's Tome",
+        "The One Ring",
         "Thran Dynamo",
         "Batterskull",
         "Memory Jar",
