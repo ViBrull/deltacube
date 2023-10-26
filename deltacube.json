@@ -901,7 +901,7 @@
         {
             "name": "Green Ponders",
             "type": "pool",
-            "count": 2,
+            "count": 1,
             "contents": [
                 "Traverse the Ulvenwald",
                 "Once Upon a Time",
@@ -917,6 +917,7 @@
         "Explore",
         "Finale of Devastation",
         "Life from the Loam",
+        "Up the Beanstalk",
         "Regrowth",
         "Bala Ged Recovery",
         {
