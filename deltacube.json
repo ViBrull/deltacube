@@ -282,7 +282,7 @@
         {
             "name": "Worst Blue Creatures 2MV",
             "type": "pool",
-            "count": 7,
+            "count": 8,
             "contents": [
                 "Looter il-Kor",
                 "Thieving Skydiver",
@@ -1171,7 +1171,6 @@
                 "Wargate"
             ]
         },
-        "Soulfire Grand Master",
         "Leovold, Emissary of Trest",
         "Omnath, Locus of Creation",
         "Golos, Tireless Pilgrim",
