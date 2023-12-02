@@ -91,11 +91,11 @@
                 }
             ],
             "replace": [
-                "Shambling Vent",
-                "Needle Spires",
-                "Lumbering Falls",
+                "Celestial Colonnade",
+                "Creeping Tar Pit",
+                "Raging Ravine",
                 "Hissing Quagmire",
-                "Wandering Fumarole"
+                "Needle Spires"
             ]
         },
         {
@@ -120,18 +120,19 @@
         {
             "name": "Worst White Weenies 1MV",
             "type": "pool",
-            "count": 8,
+            "count": 6,
             "contents": [
                 "Giant Killer",
                 "Thraben Inspector",
                 "Dauntless Bodyguard",
                 "Usher of the Fallen",
-                "Codespell Cleric",
-                "Esper Sentinel",
-                "Recruitment Officer",
-                "Kytheon, Hero of Akros"
+                "Miner's Guidewing",
+                "Kytheon, Hero of Akros",
+                "Ruin-Lurker Bat"
             ]
         },
+        "Esper Sentinel",
+        "Recruitment Officer",
         "Skrelv, Defector Mite",
         "Giver of Runes",
         "Isamaru, Hound of Konda",
@@ -281,7 +282,7 @@
         {
             "name": "Worst Blue Creatures 2MV",
             "type": "pool",
-            "count": 6,
+            "count": 7,
             "contents": [
                 "Looter il-Kor",
                 "Thieving Skydiver",
@@ -293,7 +294,8 @@
                 "Jace, Vryn's Prodigy",
                 "Phantasmal Image",
                 "Suspicious Stowaway",
-                "Rona, Herald of Invasion"
+                "Rona, Herald of Invasion",
+                "Malcolm, Alluring Scoundrel"
             ]
         },
         "Corridor Monitor",
@@ -330,22 +332,13 @@
                 "Unctus, Grand Metatect",
                 "Chrome Host Seedshark",
                 "Feywild Caretaker",
-                "Horned Loch-Whale"
+                "Horned Loch-Whale",
+                "Tishana's Tidebinder"
             ]
         },
         "Urza, Lord High Artificer",
         "Venser, Shaper Savant",
         "Mulldrifter",
-        {
-            "name": "Blue Creatures 6MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Consecrated Sphinx",
-                "Frost Titan",
-                "Torrential Gearhulk"
-            ]
-        },
         "Narset, Parter of Veils",
         {
             "name": "Blue Planeswalkers 4MV",
@@ -385,7 +378,6 @@
         },
         "Ancestral Recall",
         "Brainstorm",
-        "High Tide",
         "Mystical Tutor",
         "Spell Pierce",
         "Brain Freeze",
@@ -410,9 +402,9 @@
                 "Gifts Ungiven",
                 "Fact or Fiction",
                 "Memory Deluge",
-                "Turnabout",
                 "Shark Typhoon",
-                "See Double"
+                "See Double",
+                "Torrential Gearhulk"
             ]
         },
         "Force of Will",
@@ -451,7 +443,8 @@
             "count": 1,
             "contents": [
                 "Bloodsoaked Champion",
-                "Okiba Reckoner Raid"
+                "Okiba Reckoner Raid",
+                "Stalactite Stalker"
             ]
         },
         {
@@ -461,7 +454,8 @@
             "contents": [
                 "Kitesail Freebooter",
                 "Mesmeric Fiend",
-                "Graf Reaver"
+                "Graf Reaver",
+                "Deep-Cavern Bat"
             ]
         },
         {
@@ -640,7 +634,7 @@
         {
             "name": "Worst Red Creatures 2MV",
             "type": "pool",
-            "count": 5,
+            "count": 3,
             "contents": [
                 "Abbot of Keral Keep",
                 "Eidolon of the Great Revel",
@@ -652,11 +646,13 @@
                 "Feldon, Ronom Excavator",
                 "Dwarven Forge-Chanter",
                 "Flametongue Yearling",
-                "Goblin Engineer",
                 "Bloodfeather Phoenix",
-                "Scalding Viper"
+                "Scalding Viper",
+                "Belligerent Yearling"
             ]
         },
+        "Goblin Engineer",
+        "Inti, Seneschal of the Sun",
         "Khenra Spellspear",
         "Young Pyromancer",
         {
@@ -728,7 +724,8 @@
                 "Incinerate",
                 "Galvanic Blast",
                 "Cathartic Pyre",
-                "Searing Spear"
+                "Searing Spear",
+                "Trumpeting Carnosaur"
             ]
         },
         {
@@ -880,7 +877,7 @@
                 "Workshop Warchief",
                 "Vivien, Monsters' Advocate",
                 "Elder Gargaroth",
-                "Kura, the Boundless Sky",
+                "Ojer Kaslem, Deepest Growth",
                 "Vorinclex"
             ]
         },
@@ -895,7 +892,8 @@
                 "Tyrranax Rex",
                 "Craterhoof Behemoth",
                 "Terastodon",
-                "Woodfall Primus"
+                "Woodfall Primus",
+                "Ghalta, Stampede Tyrant"
             ]
         },
         {
@@ -986,16 +984,8 @@
         },
         "Kolaghan's Command",
         "Chaos Defiler",
-        {
-            "name": "Rakdos Discard",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Kroxa, Titan of Death's Hunger",
-                "Blightning",
-                "Ob Nixilis, the Adversary"
-            ]
-        },
+        "Kroxa, Titan of Death's Hunger",
+        "Molten Collapse",
         {
             "comment": "==========Gruul=========="
         },
@@ -1054,6 +1044,7 @@
         "Dack Fayden",
         "Saheeli Rai",
         "Third Path Iconoclast",
+        "Saheeli, the Sun's Brilliance",
         {
             "comment": "==========Golgari=========="
         },
