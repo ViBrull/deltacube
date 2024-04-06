@@ -507,26 +507,18 @@
     {
       "name": "Worst Red Creatures 2MV",
       "type": "pool",
-      "count": 3,
+      "count": 2,
       "contents": [
-        "Abbot of Keral Keep",
-        "Eidolon of the Great Revel",
-        "Runaway Steam-Kin",
-        "Flamescroll Celebrant",
-        "Voltaic Visionary",
-        "Radha's Firebrand",
-        "Lizard Blades",
-        "Feldon, Ronom Excavator",
-        "Dwarven Forge-Chanter",
         "Flametongue Yearling",
-        "Bloodfeather Phoenix",
         "Scalding Viper",
         "Belligerent Yearling",
-        "Fugitive Codebreaker"
+        "Fugitive Codebreaker",
+        "Slickshot Showoff"
       ]
     },
     "Goblin Engineer",
     "Inti, Seneschal of the Sun",
+    "Feldon, Ronom Excavator",
     "Khenra Spellspear",
     "Young Pyromancer",
     "Goblin Rabblemaster",
