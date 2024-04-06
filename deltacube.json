@@ -418,11 +418,11 @@
     "Fatal Push",
     "Vampiric Tutor",
     "Cabal Ritual",
-    "Heartless Act",
     "Sheoldred's Edict",
     "Animate Dead",
     "Recurring Nightmare",
     "Reanimate",
+    "Bitter Triumph",
     "Dismember",
     "Hero's Downfall",
     {
@@ -439,7 +439,8 @@
         "Soul Transfer",
         "Snuff Out",
         "Bloodchief's Thirst",
-        "Pile On"
+        "Pile On",
+        "Heartless Act"
       ]
     },
     "Duress",
