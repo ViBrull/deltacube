@@ -243,20 +243,10 @@
       ]
     },
     {
-      "name": "Worst Blue Counterspells",
+      "name": "Worst Blue Spells",
       "type": "pool",
       "count": 2,
-      "contents": [
-        "Arcane Denial",
-        "Daze",
-        "Lose Focus",
-        "Bind the Monster",
-        "Condescend",
-        "Suspend",
-        "Muddle the Mixture",
-        "Subtlety",
-        "Pact of Negation"
-      ]
+      "contents": ["Daze", "Subtlety", "Ghostly Flicker"]
     },
     "Ancestral Recall",
     "Brainstorm",
@@ -264,6 +254,7 @@
     "Spell Pierce",
     "Brain Freeze",
     "Counterspell",
+    "Muddle the Mixture",
     "Jace Reawakened",
     "Mana Drain",
     "Mana Leak",
@@ -272,7 +263,6 @@
     "Force of Negation",
     "Frantic Search",
     "Thirst for Discovery",
-    "Ghostly Flicker",
     {
       "name": "Big Blue Spells",
       "type": "pool",
