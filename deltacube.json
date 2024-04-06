@@ -1,112 +1,5 @@
 {
-  "packages": [
-    {
-      "comment": "==========Fixing Packages=========="
-    },
-    {
-      "name": "Pathways",
-      "type": "package",
-      "odds": 0.05,
-      "contents": [
-        {
-          "name": "SP Allied Pathways",
-          "type": "package",
-          "contents": [
-            "Hengegate Pathway",
-            "Clearwater Pathway",
-            "Blightstep Pathway",
-            "Cragcrown Pathway",
-            "Branchloft Pathway"
-          ],
-          "replace": [
-            "Seachrome Coast",
-            "Darkslick Shores",
-            "Blackcleave Cliffs",
-            "Copperline Gorge",
-            "Razorverge Thicket"
-          ]
-        },
-        {
-          "name": "SP Enemy Pathways",
-          "type": "package",
-          "contents": [
-            "Barkchannel Pathway",
-            "Brightclimb Pathway",
-            "Darkbore Pathway",
-            "Needleverge Pathway",
-            "Riverglide Pathway"
-          ],
-          "replace": [
-            "Concealed Courtyard",
-            "Spirebluff Canal",
-            "Blooming Marsh",
-            "Inspiring Vantage",
-            "Botanical Sanctum"
-          ]
-        }
-      ],
-      "replace": []
-    },
-    {
-      "name": "Horizon Lands",
-      "type": "package",
-      "odds": 0.2,
-      "contents": [
-        "Silent Clearing",
-        "Sunbaked Canyon",
-        "Waterlogged Grove",
-        "Nurturing Peatland",
-        "Fiery Islet",
-        {
-          "name": "SP Future Shifted Lands",
-          "type": "package",
-          "odds": 0.2,
-          "contents": [
-            "Nimbus Maze",
-            "River of Tears",
-            "Graven Cairns",
-            "Grove of the Burnwillows",
-            "Horizon Canopy",
-            {
-              "name": "SP Punishing Fire",
-              "type": "package",
-              "contents": ["Punishing Fire"],
-              "replace": [
-                {
-                  "poolName": "Worst Bolts",
-                  "count": 1
-                }
-              ]
-            }
-          ],
-          "replace": [
-            "Seachrome Coast",
-            "Darkslick Shores",
-            "Blackcleave Cliffs",
-            "Copperline Gorge",
-            "Razorverge Thicket"
-          ]
-        }
-      ],
-      "replace": [
-        "Celestial Colonnade",
-        "Creeping Tar Pit",
-        "Raging Ravine",
-        "Hissing Quagmire",
-        "Needle Spires"
-      ]
-    },
-    {
-      "comment": "=====Low Priority Packages====="
-    },
-    {
-      "name": "MP Otawara",
-      "type": "package",
-      "odds": 0.1,
-      "contents": ["Otawara, Soaring City"],
-      "replace": ["Glasspool Mimic"]
-    }
-  ],
+  "packages": [],
   "defaultCards": [
     {
       "comment": "==========White=========="
@@ -1259,30 +1152,25 @@
       ]
     },
     {
-      "comment": "===Man Duals==="
+      "comment": "===Playrate Balancing Lands==="
     },
-    "Celestial Colonnade",
-    "Creeping Tar Pit",
-    "Raging Ravine",
-    "Hissing Quagmire",
+    "Meticulous Archive",
+    "Shadowy Backstreet",
+    "Inspiring Vantage",
+    "Mount Doom",
+    "Underground Mortuary",
     {
-      "name": "Boros Men That Are Also Lands",
-      "type": "pool",
-      "count": 1,
-      "contents": ["Needle Spires", "Restless Bivouac"]
-    },
-    {
-      "comment": "===Fast Lands==="
+      "comment": "===Default Fast/Horizon Lands==="
     },
     "Seachrome Coast",
     "Darkslick Shores",
     "Blackcleave Cliffs",
     "Copperline Gorge",
-    "Razorverge Thicket",
+    "Horizon Canopy",
     "Concealed Courtyard",
     "Spirebluff Canal",
     "Blooming Marsh",
-    "Inspiring Vantage",
+    "Sunbaked Canyon",
     "Botanical Sanctum",
     {
       "name": "Triomes",
@@ -1311,20 +1199,20 @@
     {
       "name": "Worst Utility Lands",
       "type": "pool",
-      "count": 3,
+      "count": 5,
       "contents": [
         "Library of Alexandria",
-        "Windbrisk Heights",
         "Maze of Ith",
         "City of Traitors",
         "The Tabernacle at Pendrell Vale",
-        "Glacial Chasm"
+        "Glacial Chasm",
+        "Mishra's Workshop",
+        "Rishadan Port",
+        "Otawara, Soaring City"
       ]
     },
-    "Mishra's Workshop",
     "Mystic Sanctuary",
     "Prismatic Vista",
-    "Rishadan Port",
     "Shelldock Isle",
     "Strip Mine",
     "Tolarian Academy",
