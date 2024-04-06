@@ -374,7 +374,12 @@
       "name": "Black Velocity Creatures 3MV",
       "type": "pool",
       "count": 2,
-      "contents": ["Callous Bloodmage", "Phyrexian Rager", "Fell Stinger"]
+      "contents": [
+        "Callous Bloodmage",
+        "Phyrexian Rager",
+        "Fell Stinger",
+        "Vault Plunderer"
+      ]
     },
     "Ophiomancer",
     "Opposition Agent",
