@@ -527,21 +527,15 @@
     "Inti, Seneschal of the Sun",
     "Khenra Spellspear",
     "Young Pyromancer",
-    {
-      "name": "Red Donkeys 3MV",
-      "type": "pool",
-      "count": 5,
-      "contents": [
-        "Goblin Rabblemaster",
-        "Legion Warboss",
-        "Rampaging Ferocidon",
-        "Seasoned Pyromancer",
-        "Laelia, the Blade Reforged",
-        "Giant Cindermaw",
-        "Urabrask's Forge",
-        "Fable of the Mirror-Breaker"
-      ]
-    },
+    "Goblin Rabblemaster",
+    "Legion Warboss",
+    "Rampaging Ferocidon",
+    "Seasoned Pyromancer",
+    "Laelia, the Blade Reforged",
+    "Giant Cindermaw",
+    "Urabrask's Forge",
+    "Fable of the Mirror-Breaker",
+    "Broadside Bombadiers",
     "Birgi, God of Storytelling",
     "Bonecrusher Giant",
     "Imperial Recruiter",
@@ -554,29 +548,13 @@
         "Hazoret the Fervent",
         "Hellrider",
         "Moonveil Regent",
-        "Rekindling Phoenix",
-        "Chandra, Torch of Defiance",
         "Jaya, Fiery Negotiator",
-        "Atsushi, the Blazing Sky",
-        "Defiler of Instinct",
-        "Caves of Chaos Adventurer"
+        "Caves of Chaos Adventurer",
+        "Chandra, Torch of Defiance"
       ]
-    },
-    "Invasion of Kaldheim",
-    {
-      "name": "Red Donkeys 5MV",
-      "type": "pool",
-      "count": 2,
-      "contents": ["Glorybringer", "Thundermaw Hellkite", "Terror of the Peaks"]
     },
     "Kiki-Jiki, Mirror Breaker",
     "Zealous Conscripts",
-    {
-      "name": "Red Donkeys 6MV",
-      "type": "pool",
-      "count": 1,
-      "contents": ["Inferno Titan", "Chandra, Awakened Inferno"]
-    },
     {
       "name": "Worst Bolts",
       "type": "pool",
