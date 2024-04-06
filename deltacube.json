@@ -1,1415 +1,1327 @@
 {
-    "packages": [
+  "packages": [
+    {
+      "comment": "==========Fixing Packages=========="
+    },
+    {
+      "name": "Pathways",
+      "type": "package",
+      "odds": 0.05,
+      "contents": [
         {
-            "comment": "==========Fixing Packages=========="
+          "name": "SP Allied Pathways",
+          "type": "package",
+          "contents": [
+            "Hengegate Pathway",
+            "Clearwater Pathway",
+            "Blightstep Pathway",
+            "Cragcrown Pathway",
+            "Branchloft Pathway"
+          ],
+          "replace": [
+            "Seachrome Coast",
+            "Darkslick Shores",
+            "Blackcleave Cliffs",
+            "Copperline Gorge",
+            "Razorverge Thicket"
+          ]
         },
         {
-            "name": "Pathways",
-            "type": "package",
-            "odds": 0.05,
-            "contents": [
-                {
-                    "name": "SP Allied Pathways",
-                    "type": "package",
-                    "contents": [
-                        "Hengegate Pathway",
-                        "Clearwater Pathway",
-                        "Blightstep Pathway",
-                        "Cragcrown Pathway",
-                        "Branchloft Pathway"
-                    ],
-                    "replace": [
-                        "Seachrome Coast",
-                        "Darkslick Shores",
-                        "Blackcleave Cliffs",
-                        "Copperline Gorge",
-                        "Razorverge Thicket"
-                    ]
-                },
-                {
-                    "name": "SP Enemy Pathways",
-                    "type": "package",
-                    "contents": [
-                        "Barkchannel Pathway",
-                        "Brightclimb Pathway",
-                        "Darkbore Pathway",
-                        "Needleverge Pathway",
-                        "Riverglide Pathway"
-                    ],
-                    "replace": [
-                        "Concealed Courtyard",
-                        "Spirebluff Canal",
-                        "Blooming Marsh",
-                        "Inspiring Vantage",
-                        "Botanical Sanctum"
-                    ]
-                }
-            ],
-            "replace": []
-        },
-        {
-            "name": "Horizon Lands",
-            "type": "package",
-            "odds": 0.2,
-            "contents": [
-                "Silent Clearing",
-                "Sunbaked Canyon",
-                "Waterlogged Grove",
-                "Nurturing Peatland",
-                "Fiery Islet",
-                {
-                    "name": "SP Future Shifted Lands",
-                    "type": "package",
-                    "odds": 0.2,
-                    "contents": [
-                        "Nimbus Maze",
-                        "River of Tears",
-                        "Graven Cairns",
-                        "Grove of the Burnwillows",
-                        "Horizon Canopy",
-                        {
-                            "name": "SP Punishing Fire",
-                            "type": "package",
-                            "contents": [
-                                "Punishing Fire"
-                            ],
-                            "replace": [
-                                {
-                                    "poolName": "Worst Bolts",
-                                    "count": 1
-                                }
-                            ]
-                        }
-                    ],
-                    "replace": [
-                        "Seachrome Coast",
-                        "Darkslick Shores",
-                        "Blackcleave Cliffs",
-                        "Copperline Gorge",
-                        "Razorverge Thicket"
-                    ]
-                }
-            ],
-            "replace": [
-                "Celestial Colonnade",
-                "Creeping Tar Pit",
-                "Raging Ravine",
-                "Hissing Quagmire",
-                "Needle Spires"
-            ]
-        },
-        {
-            "comment": "=====Low Priority Packages====="
-        },
-        {
-            "name": "MP Otawara",
-            "type": "package",
-            "odds": 0.1,
-            "contents": [
-                "Otawara, Soaring City"
-            ],
-            "replace": [
-                "Glasspool Mimic"
-            ]
+          "name": "SP Enemy Pathways",
+          "type": "package",
+          "contents": [
+            "Barkchannel Pathway",
+            "Brightclimb Pathway",
+            "Darkbore Pathway",
+            "Needleverge Pathway",
+            "Riverglide Pathway"
+          ],
+          "replace": [
+            "Concealed Courtyard",
+            "Spirebluff Canal",
+            "Blooming Marsh",
+            "Inspiring Vantage",
+            "Botanical Sanctum"
+          ]
         }
-    ],
-    "defaultCards": [
+      ],
+      "replace": []
+    },
+    {
+      "name": "Horizon Lands",
+      "type": "package",
+      "odds": 0.2,
+      "contents": [
+        "Silent Clearing",
+        "Sunbaked Canyon",
+        "Waterlogged Grove",
+        "Nurturing Peatland",
+        "Fiery Islet",
         {
-            "comment": "==========White=========="
-        },
-        {
-            "name": "Worst White Weenies 1MV",
-            "type": "pool",
-            "count": 6,
-            "contents": [
-                "Giant Killer",
-                "Thraben Inspector",
-                "Dauntless Bodyguard",
-                "Usher of the Fallen",
-                "Miner's Guidewing",
-                "Kytheon, Hero of Akros",
-                "Ruin-Lurker Bat"
-            ]
-        },
-        "Esper Sentinel",
-        "Recruitment Officer",
-        "Skrelv, Defector Mite",
-        "Giver of Runes",
-        "Isamaru, Hound of Konda",
-        "Mother of Runes",
-        "Student of Warfare",
-        {
-            "name": "Worst White Weenies 2MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Leonin Relic-Warder",
-                "Wall of Omens",
-                "Tithe Taker",
-                "Killian, Ink Duelist",
-                "Giada, Font of Hope",
-                "Luminarch Aspirant",
-                "Archivist of Oghma",
-                "Autonomous Assembler",
-                "Skrelv's Hive",
+          "name": "SP Future Shifted Lands",
+          "type": "package",
+          "odds": 0.2,
+          "contents": [
+            "Nimbus Maze",
+            "River of Tears",
+            "Graven Cairns",
+            "Grove of the Burnwillows",
+            "Horizon Canopy",
+            {
+              "name": "SP Punishing Fire",
+              "type": "package",
+              "contents": ["Punishing Fire"],
+              "replace": [
                 {
-                    "name": "Magecraft White Weenies 2MV",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Seeker of the Way",
-                        "Leonin Lightscribe"
-                    ]
+                  "poolName": "Worst Bolts",
+                  "count": 1
                 }
-            ]
-        },
-        "Adanto Vanguard",
-        "Selfless Spirit",
-        "Spirit of the Labyrinth",
-        "Stoneforge Mystic",
-        "Thalia, Guardian of Thraben",
-        "Lion Sash",
-        {
-            "name": "Worst White Weenies 3MV",
-            "type": "pool",
-            "count": 6,
-            "contents": [
-                "Elite Spellbinder",
-                "Skyclave Apparition",
-                "Vryn Wingmare",
-                "Blade Splicer",
-                "Flickerwisp",
-                "Brimaz, King of Oreskos",
-                "Aven Mindcensor",
-                "Archon of Emeria",
-                "Adeline, Resplendent Cathar",
-                "Loran of the Third Path",
-                "Extraction Specialist",
-                "Phyrexian Censor",
-                "Anointed Peacekeeper",
-                "Boromir, Warden of the Tower"
-            ]
-        },
-        "Werefox Bodyguard",
-        "Brutal Cathar",
-        "White Plume Adventurer",
-        "Monastery Mentor",
-        "Porcelain Legionnaire",
-        "Ranger-Captain of Eos",
-        "Recruiter of the Guard",
-        "Steel Seraph",
-        "Thalia, Heretic Cathar",
-        {
-            "name": "Worst White Donkeys 4MV",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Hero of Bladehold",
-                "Myrel, Shield of Argive",
-                "Elesh Norn"
-            ]
-        },
-        "Seasoned Dungeoneer",
-        "Serra Paragon",
-        "Palace Jailer",
-        "Felidar Guardian",
-        "Restoration Angel",
-        "Baneslayer Angel",
-        {
-            "name": "White Planeswalkers 3-4MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Gideon Blackblade",
-                "Gideon, Ally of Zendikar"
-            ]
-        },
-        "The Eternal Wanderer",
-        {
-            "name": "Worst White Wraths",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Doomskar",
-                "Urza's Ruinous Blast",
-                "Terminus",
-                "Day of Judgment",
-                "Sunfall"
-            ]
-        },
-        {
-            "name": "Worst White Single Target",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Oblivion Ring",
-                "Mana Tithe",
-                "Solitude",
-                "Prismatic Ending",
-                "Portable Hole",
-                "Leyline Binding",
-                "Lay Down Arms",
-                "Ossification",
-                "Seal from Existence",
-                "Reprieve",
-                "Stroke of Midnight"
-            ]
-        },
-        {
-            "name": "Geddons",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Armageddon",
-                "Ravages of War"
-            ]
-        },
-        "Enlightened Tutor",
-        "Ephemerate",
-        "Path to Exile",
-        "Swords to Plowshares",
-        "Swift Reconfiguration",
-        "Balance",
-        "Recommission",
-        "Flowering of the White Tree",
-        "Council's Judgment",
-        "Damn",
-        "Wrath of God",
-        "Mox Pearl",
-        {
-            "comment": "==========Blue=========="
-        },
-        {
-            "name": "Worst Blue Creatures 2MV",
-            "type": "pool",
-            "count": 8,
-            "contents": [
-                "Looter il-Kor",
-                "Thieving Skydiver",
-                "Riftwing Cloudskate",
-                "Sea Gate Stormcaller",
-                "Thing in the Ice",
-                "Baral, Chief of Compliance",
-                "Ledger Shredder",
-                "Jace, Vryn's Prodigy",
-                "Phantasmal Image",
-                "Suspicious Stowaway",
-                "Rona, Herald of Invasion",
-                "Malcolm, Alluring Scoundrel"
-            ]
-        },
-        "Corridor Monitor",
-        "Thassa's Oracle",
-        "Snapcaster Mage",
-        "Surge Engine",
-        {
-            "name": "Worst Blue Creatures 3MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Brazen Borrower",
-                "Nimble Obstructionist",
-                "Tameshi, Reality Architect"
-            ]
-        },
-        "Deceiver Exarch",
-        "Emry, Lurker of the Loch",
-        "Glasspool Mimic",
-        "Hullbreacher",
-        "Pestermite",
-        "Spellseeker",
-        "Trinket Mage",
-        {
-            "name": "Blue Midrange Creatures",
-            "type": "pool",
-            "count": 5,
-            "contents": [
-                "Glen Elendra Archmage",
-                "Murktide Regent",
-                "Vendilion Clique",
-                "True-Name Nemesis",
-                "Phyrexian Metamorph",
-                "Unctus, Grand Metatect",
-                "Chrome Host Seedshark",
-                "Feywild Caretaker",
-                "Horned Loch-Whale",
-                "Tishana's Tidebinder"
-            ]
-        },
-        "Urza, Lord High Artificer",
-        "Venser, Shaper Savant",
-        "Mulldrifter",
-        "Narset, Parter of Veils",
-        {
-            "name": "Blue Planeswalkers 4MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Jace, the Mind Sculptor",
-                "Tezzeret, Betrayer of Flesh"
-            ]
-        },
-        {
-            "name": "Worst Blue Cantrips",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Consider",
-                "Impulse",
-                "Chart a Course",
-                "Thirst for Knowledge"
-            ]
-        },
-        {
-            "name": "Worst Blue Counterspells",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Arcane Denial",
-                "Daze",
-                "Lose Focus",
-                "Bind the Monster",
-                "Condescend",
-                "Suspend",
-                "Muddle the Mixture",
-                "Subtlety",
-                "Pact of Negation"
-            ]
-        },
-        "Ancestral Recall",
-        "Brainstorm",
-        "Mystical Tutor",
-        "Spell Pierce",
-        "Brain Freeze",
-        "Counterspell",
-        "Mana Drain",
-        "Mana Leak",
-        "Miscalculation",
-        "Remand",
-        "Force of Negation",
-        "Frantic Search",
-        "Thirst for Discovery",
-        "Ghostly Flicker",
-        {
-            "name": "Big Blue Spells",
-            "type": "pool",
-            "count": 5,
-            "contents": [
-                "Cryptic Command",
-                "Mystic Confluence",
-                "Commit // Memory",
-                "Mystical Teachings",
-                "Gifts Ungiven",
-                "Fact or Fiction",
-                "Memory Deluge",
-                "Shark Typhoon",
-                "See Double",
-                "Torrential Gearhulk"
-            ]
-        },
-        "Force of Will",
-        "Dig Through Time",
-        "Gitaxian Probe",
-        "Ponder",
-        "Preordain",
-        "Time Walk",
-        "Timetwister",
-        "Tinker",
-        {
-            "name": "Big Blue Turns",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Capture of Jingzhou",
-                "Time Warp",
-                "Temporal Manipulation",
-                "Temporal Mastery",
-                "Nexus of Fate",
-                "Alrund's Epiphany"
-            ]
-        },
-        "Echo of Eons",
-        "Time Spiral",
-        "Upheaval",
-        "Treasure Cruise",
-        "Mox Sapphire",
-        "Opposition",
-        {
-            "comment": "==========Black=========="
-        },
-        {
-            "name": "Black Creatures 1MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Bloodsoaked Champion",
-                "Okiba Reckoner Raid",
-                "Stalactite Stalker"
-            ]
-        },
-        {
-            "name": "Black Control Creatures 2MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Kitesail Freebooter",
-                "Mesmeric Fiend",
-                "Graf Reaver",
-                "Deep-Cavern Bat"
-            ]
-        },
-        {
-            "name": "Worst Black Aggro Creatures 2MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Bloodghast",
-                "Skyclave Shade",
-                "Dauthi Voidwalker",
-                "Oona's Prowler",
-                "Tenacious Underdog",
-                "Tangled Colony"
-            ]
-        },
-        "Orcish Bowmasters",
-        "Scrapheap Scrounger",
-        "Dark Confidant",
-        "Pack Rat",
-        {
-            "name": "Worst Black Donkeys 3MV",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Ammit Eternal",
-                "Drana, Liberator of Malakir",
-                "Phyrexian Fleshgorger",
-                "Sedgemoor Witch",
-                "Lord Skitter, Sewer King"
-            ]
-        },
-        "Bone Shredder",
-        {
-            "name": "Black Velocity Creatures 3MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Callous Bloodmage",
-                "Phyrexian Rager",
-                "Fell Stinger"
-            ]
-        },
-        "Ophiomancer",
-        "Opposition Agent",
-        "Rotting Regisaur",
-        "Stinkweed Imp",
-        "Yawgmoth, Thran Physician",
-        "Vicious Battlerager",
-        {
-            "name": "Black Donkeys 4-5MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Rankle, Master of Pranks",
-                "Spawn of Mayhem",
-                "Gisa, Glorious Resurrector",
-                "Bloodvial Purveyor",
-                "Sheoldred, the Apocalypse",
-                "Junji, the Midnight Sky",
-                "Sheoldred",
-                "Terror of Towashi"
-            ]
-        },
-        {
-            "name": "Black Control Creatures 4-5MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Ravenous Chupacabra",
-                "Shriekmaw"
-            ]
-        },
-        {
-            "name": "Black Donkeys 6MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Grave Titan",
-                "Massacre Wurm"
-            ]
-        },
-        "Liliana of the Veil",
-        {
-            "name": "Liliana 5MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Liliana Vess",
-                "Liliana, Death's Majesty"
-            ]
-        },
-        "Dark Ritual",
-        "Demonic Consultation",
-        "Entomb",
-        "Fatal Push",
-        "Vampiric Tutor",
-        "Cabal Ritual",
-        "Heartless Act",
-        "Sheoldred's Edict",
-        "Animate Dead",
-        "Recurring Nightmare",
-        "Reanimate",
-        "Dismember",
-        "Hero's Downfall",
-        {
-            "name": "Worst Black Single Target",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Soul Shatter",
-                "Baleful Mastery",
-                "Eliminate",
-                "Bone Shards",
-                "Infernal Grasp",
-                "Slaughter Pact",
-                "Soul Transfer",
-                "Snuff Out",
-                "Bloodchief's Thirst",
-                "Pile On"
-            ]
-        },
-        "Duress",
-        "Thoughtseize",
-        "Inquisition of Kozilek",
-        "Imperial Seal",
-        "Mind Twist",
-        "Collective Brutality",
-        "Demonic Tutor",
-        "Profane Tutor",
-        "Hymn to Tourach",
-        {
-            "name": "Black Pain Draw",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Night's Whisper",
-                "Village Rites",
-                "Raise the Draugr",
-                "Call of the Ring"
-            ]
-        },
-        "Beseech the Mirror",
-        "Toxic Deluge",
-        "Yawgmoth's Will",
-        "Damnation",
-        "Tendrils of Agony",
-        "Mox Jet",
-        "Wishclaw Talisman",
-        "Bolas's Citadel",
-        "Bitterblossom",
-        {
-            "comment": "==========Red=========="
-        },
-        {
-            "name": "Best Red Creatures 1MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Bomat Courier",
-                "Goblin Guide",
-                "Ragavan, Nimble Pilferer",
-                "Kumano Faces Kakkazan"
-            ]
-        },
-        {
-            "name": "Worst Red Creatures 1MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Grim Lavamancer",
-                "Soul-Scar Mage",
-                "Zurgo Bellstriker",
-                "Reinforced Ronin",
-                "Monastery Swiftspear"
-            ]
-        },
-        "Goblin Welder",
-        {
-            "name": "Worst Red Creatures 2MV",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Abbot of Keral Keep",
-                "Eidolon of the Great Revel",
-                "Runaway Steam-Kin",
-                "Flamescroll Celebrant",
-                "Voltaic Visionary",
-                "Radha's Firebrand",
-                "Lizard Blades",
-                "Feldon, Ronom Excavator",
-                "Dwarven Forge-Chanter",
-                "Flametongue Yearling",
-                "Bloodfeather Phoenix",
-                "Scalding Viper",
-                "Belligerent Yearling"
-            ]
-        },
-        "Goblin Engineer",
-        "Inti, Seneschal of the Sun",
-        "Khenra Spellspear",
-        "Young Pyromancer",
-        {
-            "name": "Red Donkeys 3MV",
-            "type": "pool",
-            "count": 5,
-            "contents": [
-                "Goblin Rabblemaster",
-                "Legion Warboss",
-                "Rampaging Ferocidon",
-                "Seasoned Pyromancer",
-                "Laelia, the Blade Reforged",
-                "Giant Cindermaw",
-                "Urabrask's Forge",
-                "Fable of the Mirror-Breaker"
-            ]
-        },
-        "Birgi, God of Storytelling",
-        "Bonecrusher Giant",
-        "Imperial Recruiter",
-        {
-            "name": "Red Donkeys 4MV",
-            "type": "pool",
-            "count": 5,
-            "contents": [
-                "Flametongue Kavu",
-                "Hazoret the Fervent",
-                "Hellrider",
-                "Moonveil Regent",
-                "Rekindling Phoenix",
-                "Chandra, Torch of Defiance",
-                "Jaya, Fiery Negotiator",
-                "Atsushi, the Blazing Sky",
-                "Defiler of Instinct",
-                "Caves of Chaos Adventurer"
-            ]
-        },
-        "Invasion of Kaldheim",
-        {
-            "name": "Red Donkeys 5MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Glorybringer",
-                "Thundermaw Hellkite",
-                "Terror of the Peaks"
-            ]
-        },
-        "Kiki-Jiki, Mirror Breaker",
-        "Zealous Conscripts",
-        {
-            "name": "Red Donkeys 6MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Inferno Titan",
-                "Chandra, Awakened Inferno"
-            ]
-        },
-        {
-            "name": "Worst Bolts",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Burst Lightning",
-                "Lightning Strike",
-                "Char",
-                "Lava Spike",
-                "Incinerate",
-                "Galvanic Blast",
-                "Cathartic Pyre",
-                "Searing Spear",
-                "Trumpeting Carnosaur"
-            ]
-        },
-        {
-            "name": "Best Bolts",
-            "type": "pool",
-            "count": 8,
-            "contents": [
-                "Lightning Bolt",
-                "Abrade",
-                "Fireblast",
-                "Chain Lightning",
-                "Flame Slash",
-                "Light Up the Stage",
-                "Rift Bolt",
-                "Fire // Ice"
-            ]
-        },
-        {
-            "name": "Red Storm Wincons",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Empty the Warrens",
-                "Tempt with Vengeance"
-            ]
-        },
-        "Seething Song",
-        "Valakut Awakening",
-        "Through the Breach",
-        "Faithless Looting",
-        "Goblin Bombardment",
-        "Invasion of Mercadia",
-        "Pyroclasm",
-        "Reckless Impulse",
-        "Shatterskull Smashing",
-        "Questing Druid",
-        "Wheel of Fortune",
-        "Fiery Confluence",
-        "Wildfire",
-        "Mox Ruby",
-        "Embercleave",
-        "Underworld Breach",
-        "Mana Flare",
-        "Sulfuric Vortex",
-        "Sneak Attack",
-        "Splinter Twin",
-        {
-            "comment": "==========Green=========="
-        },
-        {
-            "name": "Best Elves 1MV",
-            "type": "pool",
-            "count": 6,
-            "contents": [
-                "Birds of Paradise",
-                "Gilded Goose",
-                "Joraga Treespeaker",
-                "Utopia Sprawl",
-                "Noble Hierarch",
-                "Ignoble Hierarch"
-            ]
-        },
-        {
-            "name": "Worst Elves 1MV",
-            "type": "pool",
-            "count": 5,
-            "contents": [
-                "Arbor Elf",
-                "Elvish Mystic",
-                "Fyndhorn Elves",
-                "Llanowar Elves",
-                "Avacyn's Pilgrim",
-                "Elves of Deep Shadow",
-                "Dryad Arbor",
-                "Search for Tomorrow",
-                "Delighted Halfling"
-            ]
-        },
-        {
-            "name": "Elves 2MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Lotus Cobra",
-                "Paradise Druid",
-                "Rofellos, Llanowar Emissary",
-                "Sylvan Caryatid",
-                "Wall of Roots",
-                "Three Visits",
-                "Biophagus",
-                "Llanowar Loamspeaker"
-            ]
-        },
-        {
-            "name": "Lands Creatures 1-2MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Elvish Reclaimer",
-                "Sakura-Tribe Elder"
-            ]
-        },
-        "Devoted Druid",
-        {
-            "name": "Best Lands Creatures 3-4MV",
-            "type": "pool",
-            "count": 6,
-            "contents": [
-                "Augur of Autumn",
-                "Courser of Kruphix",
-                "Dryad of the Ilysian Grove",
-                "Ramunap Excavator",
-                "Tireless Provisioner",
-                "Nissa, Resurgent Animist"
-            ]
-        },
-        "Wrenn and Realmbreaker",
-         {
-            "name": "Green Donkeys 3MV",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Prowling Serpopard",
-                "Rhonas the Indomitable",
-                "Bloated Contaminator"
-            ]
-        },
-        "Eternal Witness",
-        "Reclamation Sage",
-        "Tireless Tracker",
-        "Questing Beast",
-        "Undermountain Adventurer",
-        {
-            "name": "Worst Green Donkeys 4MV",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Thrun, the Last Troll",
-                "Esika's Chariot",
-                "Spring-Leaf Avenger"
-            ]
-        },
-        {
-            "name": "Green Does Stuff 4-5MV",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Garruk Wildspeaker",
-                "Workshop Warchief",
-                "Vivien, Monsters' Advocate",
-                "Elder Gargaroth",
-                "Ojer Kaslem, Deepest Growth",
-                "Vorinclex"
-            ]
-        },
-        "Acidic Slime",
-        "Timeless Witness",
-        "Primeval Titan",
-        {
-            "name": "Giant Green Donkeys",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Tyrranax Rex",
-                "Craterhoof Behemoth",
-                "Terastodon",
-                "Woodfall Primus",
-                "Ghalta, Stampede Tyrant"
-            ]
-        },
-        {
-            "name": "Green Ponders",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Traverse the Ulvenwald",
-                "Once Upon a Time",
-                "Summoner's Pact",
-                "Invasion of Ixalan"
-            ]
-        },
-        "Crop Rotation",
-        "Vines of Vastwood",
-        "Boseiju, Who Endures",
-        "Green Sun's Zenith",
-        "Channel",
-        "Explore",
-        "Finale of Devastation",
-        "Life from the Loam",
-        "Up the Beanstalk",
-        "Regrowth",
-        "Bala Ged Recovery",
-        {
-            "name": "Green Draw",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Harmonize",
-                "Invasion of Shandalar"
-            ]
-        },
-        "Natural Order",
-        "Turntimber Symbiosis",
-        "Mox Emerald",
-        "Birthing Pod",
-        "Conduit of Worlds",
-        "Fastbond",
-        "Survival of the Fittest",
-        "Sylvan Library",
-        "Heartbeat of Spring",
-        {
-            "comment": "==========Azorius=========="
-        },
-        "Soulherder",
-        "Teferi, Time Raveler",
-        "Teferi, Hero of Dominaria",
-        {
-            "name": "Azorius Stuff",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Scheming Fence",
-                "Twining Twins",
-                "Urza, Lord Protector",
-                "Spell Queller",
-                "Pippin, Guard of the Citadel",
-                "Shorikai, Genesis Engine"
-            ]
-        },
-        {
-            "comment": "==========Dimir=========="
-        },
-        "Baleful Strix",
-        {
-            "name": "Dimir 3-Drops",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Kaito Shizuki",
-                "Thief of Sanity",
-                "Halo Forager"
-            ]
-        },
-        {
-            "name": "Dimir Value",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "The Scarab God",
-                "Fallen Shinobi"
-            ]
-        },
-        "Lim-Dûl's Vault",
-        {
-            "comment": "==========Rakdos=========="
-        },
-        "Kolaghan's Command",
-        "Chaos Defiler",
-        "Kroxa, Titan of Death's Hunger",
-        "Molten Collapse",
-        {
-            "comment": "==========Gruul=========="
-        },
-        "Manamorphose",
-        "Wrenn and Six",
-        "Minsc & Boo, Timeless Heroes",
-        {
-            "name": "Gruul Donkeys 3-4MV",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Migloz, Maze Crusher",
-                "Arlinn, the Pack's Hope",
-                "Bloodbraid Elf"
-            ]
-        },
-        "Ruric Thar, the Unbowed",
-        "Dragonlord Atarka",
-        {
-            "comment": "==========Selesnya=========="
-        },
-        "Eladamri's Call",
-        "Cosmic Rebirth",
-        {
-            "name": "Selesnya Just-Okay Creatures",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Voice of Resurgence",
-                "Knight of Autumn",
-                "Knight of the Reliquary",
-                "Kitchen Finks",
-                "Gaddock Teeg"
-            ]
-        },
-        {
-            "comment": "==========Orzhov=========="
-        },
-        "Tidehollow Sculler",
-        "Lurrus of the Dream-Den",
-        "Vindicate",
-        "Drana and Linvala",
-        {
-            "comment": "==========Izzet=========="
-        },
-        {
-            "name": "Izzet Commands",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Expressive Iteration",
-                "Prismari Command",
-                "Flame of Anor"
-            ]
-        },
-        "Dack Fayden",
-        "Saheeli Rai",
-        "Third Path Iconoclast",
-        "Saheeli, the Sun's Brilliance",
-        {
-            "comment": "==========Golgari=========="
-        },
-        {
-            "name": "Golgari Stuff",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Deathrite Shaman",
-                "Assassin's Trophy",
-                "Deadly Brew",
-                "Glissa Sunslayer",
-                "Rise of the Witch-king"
-            ]
-        },
-        "Mosswood Dreadknight",
-        "Maelstrom Pulse",
-        "Grist, the Hunger Tide",
-        {
-            "comment": "==========Boros=========="
-        },
-        "Figure of Destiny",
-        "Lightning Helix",
-        "Forth Eorlingas!",
-        {
-            "name": "Boros Creatures 3MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Rem Karolus, Stalwart Slayer",
-                "Venerable Warsinger",
-                "Éowyn, Fearless Knight",
-                "Comet, Stellar Pup"
-            ]
-        },
-        {
-            "comment": "==========Simic=========="
-        },
-        {
-            "name": "Simic Creatures",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Colossal Skyturtle",
-                "Hydroid Krasis",
-                "Uro, Titan of Nature's Wrath"
-            ]
-        },
-        "Oko, Thief of Crowns",
-        {
-            "comment": "==========Multi=========="
-        },
-        {
-            "name": "Tricolor Good Stuff",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                {
-                    "name": "Jeskai Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Narset, Enlightened Exile",
-                        "Hinata, Dawn-Crowned",
-                        "Aragorn, King of Gondor"
-                    ]
-                },
-                {
-                    "name": "Sultai Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Zimone and Dina",
-                        "Tasigur, the Golden Fang"
-                    ]
-                },
-                {
-                    "name": "Jund Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Ziatora's Envoy",
-                        "Soul of Windgrace"
-                    ]
-                },
-                {
-                    "name": "Mardu Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Alesha, Who Smiles at Death",
-                        "Queen Marchesa"
-                    ]
-                },
-                {
-                    "name": "Grixis Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Kess, Dissident Mage",
-                        "Bladecoil Serpent"
-                    ]
-                },
-                {
-                    "name": "Temur Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Song of Creation",
-                        "The First Tyrannic War"
-                    ]
-                },
-                {
-                    "name": "Naya Stuff",
-                    "type": "pool",
-                    "count": 1,
-                    "contents": [
-                        "Fleetfoot Dancer",
-                        "Rocco, Street Chef"
-                    ]
-                },
-                "Siege Rhino",
-                "Nimble Larcenist",
-                "Wargate"
-            ]
-        },
-        "Leovold, Emissary of Trest",
-        "Omnath, Locus of Creation",
-        "Golos, Tireless Pilgrim",
-        {
-            "name": "Returned Kings",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Kenrith, the Returned King",
-                "Aragorn, the Uniter"
-            ]
-        },
-        {
-            "comment": "==========Colorless=========="
-        },
-        {
-            "name": "Talismans",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                "Talisman of Progress",
-                "Talisman of Dominance",
-                "Talisman of Indulgence",
-                "Talisman of Impulse",
-                "Talisman of Unity",
-                "Talisman of Hierarchy",
-                "Talisman of Creativity",
-                "Talisman of Resilience",
-                "Talisman of Conviction",
-                "Talisman of Curiosity"
-            ]
-        },
-        {
-            "name": "X Creatures",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Stonecoil Serpent",
-                "Walking Ballista"
-            ]
-        },
-        "Signal Pest",
-        {
-            "name": "Colorless Utility Creatures 2MV",
-            "type": "pool",
-            "count": 1,
-            "contents": [
-                "Phyrexian Revoker",
-                "Containment Construct"
-            ]
-        },
-        "Metalworker",
-        "Myr Battlesphere",
-        "Blightsteel Colossus",
-        "Emrakul, the Aeons Torn",
-        {
-            "name": "Worst Eldrazi Targets",
-            "type": "pool",
-            "count": 2,
-            "contents": [
-                "Kozilek, Butcher of Truth",
-                "Ulamog, the Ceaseless Hunger",
-                "Ulamog, the Infinite Gyre",
-                "Emrakul, the Promised End"
-            ]
-        },
-        "Karn, Scion of Urza",
-        "Karn Liberated",
-        "Ugin, the Spirit Dragon",
-        "Black Lotus",
-        "Chrome Mox",
-        "Everflowing Chalice",
-        "Lion's Eye Diamond",
-        "Lotus Bloom",
-        "Lotus Petal",
-        "Mana Crypt",
-        "Mox Diamond",
-        "Mana Vault",
-        "Aether Vial",
-        "Luxior, Giada's Gift",
-        "Manifold Key",
-        "Voltaic Key",
-        "Sensei's Divining Top",
-        "Shadowspear",
-        "Skullclamp",
-        "Sol Ring",
-        "Grim Monolith",
-        "Horn of the Mark",
-        "Smuggler's Copter",
-        "Time Vault",
-        "Umezawa's Jitte",
-        "Winter Orb",
-        "Basalt Monolith",
-        "Coalition Relic",
-        "Crucible of Worlds",
-        "Sword of Fire and Ice",
-        "Tangle Wire",
-        "Worn Powerstone",
-        "Sonic Screwdriver",
-        "Sarevok's Tome",
-        "The One Ring",
-        "Thran Dynamo",
-        "Batterskull",
-        "Memory Jar",
-        {
-            "comment": "==========Multicolored Pools=========="
-        },
-        {
-            "name": "Reanimation Targets",
-            "type": "pool",
-            "count": 4,
-            "contents": [
-                "Griselbrand",
-                "Hogaak, Arisen Necropolis",
-                "Sphinx of the Steel Wind",
-                "Atraxa, Grand Unifier"
-            ]
-        },
-        {
-            "comment": "==========Lands=========="
-        },
-        {
-            "name": "Original Duals",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                "Tropical Island",
-                "Badlands",
-                "Bayou",
-                "Plateau",
-                "Savannah",
-                "Scrubland",
-                "Taiga",
-                "Tundra",
-                "Underground Sea",
-                "Volcanic Island"
-            ]
-        },
-        {
-            "name": "Shocks",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                "Hallowed Fountain",
-                "Watery Grave",
-                "Blood Crypt",
-                "Stomping Ground",
-                "Temple Garden",
-                "Godless Shrine",
-                "Steam Vents",
-                "Overgrown Tomb",
-                "Sacred Foundry",
-                "Breeding Pool"
-            ]
-        },
-        {
-            "name": "Fetches",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                "Flooded Strand",
-                "Polluted Delta",
-                "Bloodstained Mire",
-                "Wooded Foothills",
-                "Windswept Heath",
-                "Marsh Flats",
-                "Scalding Tarn",
-                "Verdant Catacombs",
-                "Arid Mesa",
-                "Misty Rainforest"
-            ]
-        },
-        {
-            "comment": "===Man Duals==="
-        },
+              ]
+            }
+          ],
+          "replace": [
+            "Seachrome Coast",
+            "Darkslick Shores",
+            "Blackcleave Cliffs",
+            "Copperline Gorge",
+            "Razorverge Thicket"
+          ]
+        }
+      ],
+      "replace": [
         "Celestial Colonnade",
         "Creeping Tar Pit",
         "Raging Ravine",
         "Hissing Quagmire",
-        "Needle Spires",
+        "Needle Spires"
+      ]
+    },
+    {
+      "comment": "=====Low Priority Packages====="
+    },
+    {
+      "name": "MP Otawara",
+      "type": "package",
+      "odds": 0.1,
+      "contents": ["Otawara, Soaring City"],
+      "replace": ["Glasspool Mimic"]
+    }
+  ],
+  "defaultCards": [
+    {
+      "comment": "==========White=========="
+    },
+    {
+      "name": "Worst White Weenies 1MV",
+      "type": "pool",
+      "count": 6,
+      "contents": [
+        "Giant Killer",
+        "Thraben Inspector",
+        "Dauntless Bodyguard",
+        "Usher of the Fallen",
+        "Miner's Guidewing",
+        "Kytheon, Hero of Akros",
+        "Ruin-Lurker Bat"
+      ]
+    },
+    "Esper Sentinel",
+    "Recruitment Officer",
+    "Skrelv, Defector Mite",
+    "Giver of Runes",
+    "Isamaru, Hound of Konda",
+    "Mother of Runes",
+    "Student of Warfare",
+    {
+      "name": "Worst White Weenies 2MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Leonin Relic-Warder",
+        "Wall of Omens",
+        "Tithe Taker",
+        "Killian, Ink Duelist",
+        "Giada, Font of Hope",
+        "Luminarch Aspirant",
+        "Archivist of Oghma",
+        "Autonomous Assembler",
+        "Skrelv's Hive",
         {
-            "comment": "===Fast Lands==="
-        },
-        "Seachrome Coast",
-        "Darkslick Shores",
-        "Blackcleave Cliffs",
-        "Copperline Gorge",
-        "Razorverge Thicket",
-        "Concealed Courtyard",
-        "Spirebluff Canal",
-        "Blooming Marsh",
-        "Inspiring Vantage",
-        "Botanical Sanctum",
+          "name": "Magecraft White Weenies 2MV",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Seeker of the Way", "Leonin Lightscribe"]
+        }
+      ]
+    },
+    "Adanto Vanguard",
+    "Selfless Spirit",
+    "Spirit of the Labyrinth",
+    "Stoneforge Mystic",
+    "Thalia, Guardian of Thraben",
+    "Lion Sash",
+    {
+      "name": "Worst White Weenies 3MV",
+      "type": "pool",
+      "count": 6,
+      "contents": [
+        "Elite Spellbinder",
+        "Skyclave Apparition",
+        "Vryn Wingmare",
+        "Blade Splicer",
+        "Flickerwisp",
+        "Brimaz, King of Oreskos",
+        "Aven Mindcensor",
+        "Archon of Emeria",
+        "Adeline, Resplendent Cathar",
+        "Loran of the Third Path",
+        "Extraction Specialist",
+        "Phyrexian Censor",
+        "Anointed Peacekeeper",
+        "Boromir, Warden of the Tower"
+      ]
+    },
+    "Werefox Bodyguard",
+    "Brutal Cathar",
+    "White Plume Adventurer",
+    "Monastery Mentor",
+    "Porcelain Legionnaire",
+    "Ranger-Captain of Eos",
+    "Recruiter of the Guard",
+    "Steel Seraph",
+    "Thalia, Heretic Cathar",
+    {
+      "name": "Worst White Donkeys 4MV",
+      "type": "pool",
+      "count": 3,
+      "contents": ["Hero of Bladehold", "Myrel, Shield of Argive", "Elesh Norn"]
+    },
+    "Seasoned Dungeoneer",
+    "Serra Paragon",
+    "Palace Jailer",
+    "Felidar Guardian",
+    "Restoration Angel",
+    "Baneslayer Angel",
+    {
+      "name": "White Planeswalkers 3-4MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Gideon Blackblade", "Gideon, Ally of Zendikar"]
+    },
+    "The Eternal Wanderer",
+    {
+      "name": "Worst White Wraths",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Doomskar",
+        "Urza's Ruinous Blast",
+        "Terminus",
+        "Day of Judgment",
+        "Sunfall"
+      ]
+    },
+    {
+      "name": "Worst White Single Target",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Oblivion Ring",
+        "Mana Tithe",
+        "Solitude",
+        "Prismatic Ending",
+        "Portable Hole",
+        "Leyline Binding",
+        "Lay Down Arms",
+        "Ossification",
+        "Seal from Existence",
+        "Reprieve",
+        "Stroke of Midnight"
+      ]
+    },
+    {
+      "name": "Geddons",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Armageddon", "Ravages of War"]
+    },
+    "Enlightened Tutor",
+    "Ephemerate",
+    "Path to Exile",
+    "Swords to Plowshares",
+    "Swift Reconfiguration",
+    "Balance",
+    "Recommission",
+    "Flowering of the White Tree",
+    "Council's Judgment",
+    "Damn",
+    "Wrath of God",
+    "Mox Pearl",
+    {
+      "comment": "==========Blue=========="
+    },
+    {
+      "name": "Worst Blue Creatures 2MV",
+      "type": "pool",
+      "count": 8,
+      "contents": [
+        "Looter il-Kor",
+        "Thieving Skydiver",
+        "Riftwing Cloudskate",
+        "Sea Gate Stormcaller",
+        "Thing in the Ice",
+        "Baral, Chief of Compliance",
+        "Ledger Shredder",
+        "Jace, Vryn's Prodigy",
+        "Phantasmal Image",
+        "Suspicious Stowaway",
+        "Rona, Herald of Invasion",
+        "Malcolm, Alluring Scoundrel"
+      ]
+    },
+    "Corridor Monitor",
+    "Thassa's Oracle",
+    "Snapcaster Mage",
+    "Surge Engine",
+    {
+      "name": "Worst Blue Creatures 3MV",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Brazen Borrower",
+        "Nimble Obstructionist",
+        "Tameshi, Reality Architect"
+      ]
+    },
+    "Deceiver Exarch",
+    "Emry, Lurker of the Loch",
+    "Glasspool Mimic",
+    "Hullbreacher",
+    "Pestermite",
+    "Spellseeker",
+    "Trinket Mage",
+    {
+      "name": "Blue Midrange Creatures",
+      "type": "pool",
+      "count": 5,
+      "contents": [
+        "Glen Elendra Archmage",
+        "Murktide Regent",
+        "Vendilion Clique",
+        "True-Name Nemesis",
+        "Phyrexian Metamorph",
+        "Unctus, Grand Metatect",
+        "Chrome Host Seedshark",
+        "Feywild Caretaker",
+        "Horned Loch-Whale",
+        "Tishana's Tidebinder"
+      ]
+    },
+    "Urza, Lord High Artificer",
+    "Venser, Shaper Savant",
+    "Mulldrifter",
+    "Narset, Parter of Veils",
+    {
+      "name": "Blue Planeswalkers 4MV",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Jace, the Mind Sculptor", "Tezzeret, Betrayer of Flesh"]
+    },
+    {
+      "name": "Worst Blue Cantrips",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Consider",
+        "Impulse",
+        "Chart a Course",
+        "Thirst for Knowledge"
+      ]
+    },
+    {
+      "name": "Worst Blue Counterspells",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Arcane Denial",
+        "Daze",
+        "Lose Focus",
+        "Bind the Monster",
+        "Condescend",
+        "Suspend",
+        "Muddle the Mixture",
+        "Subtlety",
+        "Pact of Negation"
+      ]
+    },
+    "Ancestral Recall",
+    "Brainstorm",
+    "Mystical Tutor",
+    "Spell Pierce",
+    "Brain Freeze",
+    "Counterspell",
+    "Mana Drain",
+    "Mana Leak",
+    "Miscalculation",
+    "Remand",
+    "Force of Negation",
+    "Frantic Search",
+    "Thirst for Discovery",
+    "Ghostly Flicker",
+    {
+      "name": "Big Blue Spells",
+      "type": "pool",
+      "count": 5,
+      "contents": [
+        "Cryptic Command",
+        "Mystic Confluence",
+        "Commit // Memory",
+        "Mystical Teachings",
+        "Gifts Ungiven",
+        "Fact or Fiction",
+        "Memory Deluge",
+        "Shark Typhoon",
+        "See Double",
+        "Torrential Gearhulk"
+      ]
+    },
+    "Force of Will",
+    "Dig Through Time",
+    "Gitaxian Probe",
+    "Ponder",
+    "Preordain",
+    "Time Walk",
+    "Timetwister",
+    "Tinker",
+    {
+      "name": "Big Blue Turns",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Capture of Jingzhou",
+        "Time Warp",
+        "Temporal Manipulation",
+        "Temporal Mastery",
+        "Nexus of Fate",
+        "Alrund's Epiphany"
+      ]
+    },
+    "Echo of Eons",
+    "Time Spiral",
+    "Upheaval",
+    "Treasure Cruise",
+    "Mox Sapphire",
+    "Opposition",
+    {
+      "comment": "==========Black=========="
+    },
+    {
+      "name": "Black Creatures 1MV",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Bloodsoaked Champion",
+        "Okiba Reckoner Raid",
+        "Stalactite Stalker"
+      ]
+    },
+    {
+      "name": "Black Control Creatures 2MV",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Kitesail Freebooter",
+        "Mesmeric Fiend",
+        "Graf Reaver",
+        "Deep-Cavern Bat"
+      ]
+    },
+    {
+      "name": "Worst Black Aggro Creatures 2MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Bloodghast",
+        "Skyclave Shade",
+        "Dauthi Voidwalker",
+        "Oona's Prowler",
+        "Tenacious Underdog",
+        "Tangled Colony"
+      ]
+    },
+    "Orcish Bowmasters",
+    "Scrapheap Scrounger",
+    "Dark Confidant",
+    "Pack Rat",
+    {
+      "name": "Worst Black Donkeys 3MV",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Ammit Eternal",
+        "Drana, Liberator of Malakir",
+        "Phyrexian Fleshgorger",
+        "Sedgemoor Witch",
+        "Lord Skitter, Sewer King"
+      ]
+    },
+    "Bone Shredder",
+    {
+      "name": "Black Velocity Creatures 3MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Callous Bloodmage", "Phyrexian Rager", "Fell Stinger"]
+    },
+    "Ophiomancer",
+    "Opposition Agent",
+    "Rotting Regisaur",
+    "Stinkweed Imp",
+    "Yawgmoth, Thran Physician",
+    "Vicious Battlerager",
+    {
+      "name": "Black Donkeys 4-5MV",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Rankle, Master of Pranks",
+        "Spawn of Mayhem",
+        "Gisa, Glorious Resurrector",
+        "Bloodvial Purveyor",
+        "Sheoldred, the Apocalypse",
+        "Junji, the Midnight Sky",
+        "Sheoldred",
+        "Terror of Towashi"
+      ]
+    },
+    {
+      "name": "Black Control Creatures 4-5MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Ravenous Chupacabra", "Shriekmaw"]
+    },
+    {
+      "name": "Black Donkeys 6MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Grave Titan", "Massacre Wurm"]
+    },
+    "Liliana of the Veil",
+    {
+      "name": "Liliana 5MV",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Liliana Vess", "Liliana, Death's Majesty"]
+    },
+    "Dark Ritual",
+    "Demonic Consultation",
+    "Entomb",
+    "Fatal Push",
+    "Vampiric Tutor",
+    "Cabal Ritual",
+    "Heartless Act",
+    "Sheoldred's Edict",
+    "Animate Dead",
+    "Recurring Nightmare",
+    "Reanimate",
+    "Dismember",
+    "Hero's Downfall",
+    {
+      "name": "Worst Black Single Target",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Soul Shatter",
+        "Baleful Mastery",
+        "Eliminate",
+        "Bone Shards",
+        "Infernal Grasp",
+        "Slaughter Pact",
+        "Soul Transfer",
+        "Snuff Out",
+        "Bloodchief's Thirst",
+        "Pile On"
+      ]
+    },
+    "Duress",
+    "Thoughtseize",
+    "Inquisition of Kozilek",
+    "Imperial Seal",
+    "Mind Twist",
+    "Collective Brutality",
+    "Demonic Tutor",
+    "Profane Tutor",
+    "Hymn to Tourach",
+    {
+      "name": "Black Pain Draw",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Night's Whisper",
+        "Village Rites",
+        "Raise the Draugr",
+        "Call of the Ring"
+      ]
+    },
+    "Beseech the Mirror",
+    "Toxic Deluge",
+    "Yawgmoth's Will",
+    "Damnation",
+    "Tendrils of Agony",
+    "Mox Jet",
+    "Wishclaw Talisman",
+    "Bolas's Citadel",
+    "Bitterblossom",
+    {
+      "comment": "==========Red=========="
+    },
+    {
+      "name": "Best Red Creatures 1MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Bomat Courier",
+        "Goblin Guide",
+        "Ragavan, Nimble Pilferer",
+        "Kumano Faces Kakkazan"
+      ]
+    },
+    {
+      "name": "Worst Red Creatures 1MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Grim Lavamancer",
+        "Soul-Scar Mage",
+        "Zurgo Bellstriker",
+        "Reinforced Ronin",
+        "Monastery Swiftspear"
+      ]
+    },
+    "Goblin Welder",
+    {
+      "name": "Worst Red Creatures 2MV",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Abbot of Keral Keep",
+        "Eidolon of the Great Revel",
+        "Runaway Steam-Kin",
+        "Flamescroll Celebrant",
+        "Voltaic Visionary",
+        "Radha's Firebrand",
+        "Lizard Blades",
+        "Feldon, Ronom Excavator",
+        "Dwarven Forge-Chanter",
+        "Flametongue Yearling",
+        "Bloodfeather Phoenix",
+        "Scalding Viper",
+        "Belligerent Yearling"
+      ]
+    },
+    "Goblin Engineer",
+    "Inti, Seneschal of the Sun",
+    "Khenra Spellspear",
+    "Young Pyromancer",
+    {
+      "name": "Red Donkeys 3MV",
+      "type": "pool",
+      "count": 5,
+      "contents": [
+        "Goblin Rabblemaster",
+        "Legion Warboss",
+        "Rampaging Ferocidon",
+        "Seasoned Pyromancer",
+        "Laelia, the Blade Reforged",
+        "Giant Cindermaw",
+        "Urabrask's Forge",
+        "Fable of the Mirror-Breaker"
+      ]
+    },
+    "Birgi, God of Storytelling",
+    "Bonecrusher Giant",
+    "Imperial Recruiter",
+    {
+      "name": "Red Donkeys 4MV",
+      "type": "pool",
+      "count": 5,
+      "contents": [
+        "Flametongue Kavu",
+        "Hazoret the Fervent",
+        "Hellrider",
+        "Moonveil Regent",
+        "Rekindling Phoenix",
+        "Chandra, Torch of Defiance",
+        "Jaya, Fiery Negotiator",
+        "Atsushi, the Blazing Sky",
+        "Defiler of Instinct",
+        "Caves of Chaos Adventurer"
+      ]
+    },
+    "Invasion of Kaldheim",
+    {
+      "name": "Red Donkeys 5MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Glorybringer", "Thundermaw Hellkite", "Terror of the Peaks"]
+    },
+    "Kiki-Jiki, Mirror Breaker",
+    "Zealous Conscripts",
+    {
+      "name": "Red Donkeys 6MV",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Inferno Titan", "Chandra, Awakened Inferno"]
+    },
+    {
+      "name": "Worst Bolts",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Burst Lightning",
+        "Lightning Strike",
+        "Char",
+        "Lava Spike",
+        "Incinerate",
+        "Galvanic Blast",
+        "Cathartic Pyre",
+        "Searing Spear",
+        "Trumpeting Carnosaur",
+        "Monstrous Rage"
+      ]
+    },
+    {
+      "name": "Best Bolts",
+      "type": "pool",
+      "count": 8,
+      "contents": [
+        "Lightning Bolt",
+        "Abrade",
+        "Fireblast",
+        "Chain Lightning",
+        "Flame Slash",
+        "Light Up the Stage",
+        "Rift Bolt",
+        "Fire // Ice"
+      ]
+    },
+    {
+      "name": "Red Storm Wincons",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Empty the Warrens", "Tempt with Vengeance"]
+    },
+    "Seething Song",
+    "Valakut Awakening",
+    "Through the Breach",
+    "Faithless Looting",
+    "Goblin Bombardment",
+    "Invasion of Mercadia",
+    "Pyroclasm",
+    "Reckless Impulse",
+    "Shatterskull Smashing",
+    "Questing Druid",
+    "Wheel of Fortune",
+    "Fiery Confluence",
+    "Wildfire",
+    "Mox Ruby",
+    "Embercleave",
+    "Underworld Breach",
+    "Mana Flare",
+    "Sulfuric Vortex",
+    "Sneak Attack",
+    "Splinter Twin",
+    {
+      "comment": "==========Green=========="
+    },
+    {
+      "name": "Best Elves 1MV",
+      "type": "pool",
+      "count": 6,
+      "contents": [
+        "Birds of Paradise",
+        "Gilded Goose",
+        "Joraga Treespeaker",
+        "Utopia Sprawl",
+        "Noble Hierarch",
+        "Ignoble Hierarch"
+      ]
+    },
+    {
+      "name": "Worst Elves 1MV",
+      "type": "pool",
+      "count": 5,
+      "contents": [
+        "Arbor Elf",
+        "Elvish Mystic",
+        "Fyndhorn Elves",
+        "Llanowar Elves",
+        "Avacyn's Pilgrim",
+        "Elves of Deep Shadow",
+        "Dryad Arbor",
+        "Search for Tomorrow",
+        "Delighted Halfling"
+      ]
+    },
+    {
+      "name": "Elves 2MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Lotus Cobra",
+        "Paradise Druid",
+        "Rofellos, Llanowar Emissary",
+        "Sylvan Caryatid",
+        "Wall of Roots",
+        "Three Visits",
+        "Biophagus",
+        "Llanowar Loamspeaker"
+      ]
+    },
+    {
+      "name": "Lands Creatures 1-2MV",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Elvish Reclaimer", "Sakura-Tribe Elder"]
+    },
+    "Devoted Druid",
+    {
+      "name": "Best Lands Creatures 3-4MV",
+      "type": "pool",
+      "count": 6,
+      "contents": [
+        "Augur of Autumn",
+        "Courser of Kruphix",
+        "Dryad of the Ilysian Grove",
+        "Ramunap Excavator",
+        "Tireless Provisioner",
+        "Nissa, Resurgent Animist"
+      ]
+    },
+    "Wrenn and Realmbreaker",
+    {
+      "name": "Green Donkeys 3MV",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Prowling Serpopard",
+        "Rhonas the Indomitable",
+        "Bloated Contaminator"
+      ]
+    },
+    "Eternal Witness",
+    "Reclamation Sage",
+    "Tireless Tracker",
+    "Questing Beast",
+    "Undermountain Adventurer",
+    {
+      "name": "Worst Green Donkeys 4MV",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Thrun, the Last Troll",
+        "Esika's Chariot",
+        "Spring-Leaf Avenger"
+      ]
+    },
+    {
+      "name": "Green Does Stuff 4-5MV",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Garruk Wildspeaker",
+        "Workshop Warchief",
+        "Vivien, Monsters' Advocate",
+        "Elder Gargaroth",
+        "Ojer Kaslem, Deepest Growth",
+        "Vorinclex"
+      ]
+    },
+    "Acidic Slime",
+    "Timeless Witness",
+    "Primeval Titan",
+    {
+      "name": "Giant Green Donkeys",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Tyrranax Rex",
+        "Craterhoof Behemoth",
+        "Terastodon",
+        "Woodfall Primus",
+        "Ghalta, Stampede Tyrant"
+      ]
+    },
+    {
+      "name": "Green Ponders",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Traverse the Ulvenwald",
+        "Once Upon a Time",
+        "Summoner's Pact",
+        "Invasion of Ixalan"
+      ]
+    },
+    "Crop Rotation",
+    "Vines of Vastwood",
+    "Boseiju, Who Endures",
+    "Green Sun's Zenith",
+    "Channel",
+    "Explore",
+    "Finale of Devastation",
+    "Life from the Loam",
+    "Up the Beanstalk",
+    "Regrowth",
+    "Bala Ged Recovery",
+    {
+      "name": "Green Draw",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Harmonize", "Invasion of Shandalar"]
+    },
+    "Natural Order",
+    "Turntimber Symbiosis",
+    "Mox Emerald",
+    "Birthing Pod",
+    "Conduit of Worlds",
+    "Fastbond",
+    "Survival of the Fittest",
+    "Sylvan Library",
+    "Heartbeat of Spring",
+    {
+      "comment": "==========Azorius=========="
+    },
+    "Soulherder",
+    "Teferi, Time Raveler",
+    "Teferi, Hero of Dominaria",
+    {
+      "name": "Azorius Stuff",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Scheming Fence",
+        "Twining Twins",
+        "Urza, Lord Protector",
+        "Spell Queller",
+        "Pippin, Guard of the Citadel",
+        "Shorikai, Genesis Engine"
+      ]
+    },
+    {
+      "comment": "==========Dimir=========="
+    },
+    "Baleful Strix",
+    {
+      "name": "Dimir 3-Drops",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Kaito Shizuki", "Thief of Sanity", "Halo Forager"]
+    },
+    {
+      "name": "Dimir Value",
+      "type": "pool",
+      "count": 2,
+      "contents": ["The Scarab God", "Fallen Shinobi"]
+    },
+    "Lim-Dûl's Vault",
+    {
+      "comment": "==========Rakdos=========="
+    },
+    "Kolaghan's Command",
+    "Chaos Defiler",
+    "Kroxa, Titan of Death's Hunger",
+    "Molten Collapse",
+    {
+      "comment": "==========Gruul=========="
+    },
+    "Manamorphose",
+    "Wrenn and Six",
+    "Minsc & Boo, Timeless Heroes",
+    {
+      "name": "Gruul Donkeys 3-4MV",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Migloz, Maze Crusher",
+        "Arlinn, the Pack's Hope",
+        "Bloodbraid Elf"
+      ]
+    },
+    "Ruric Thar, the Unbowed",
+    "Dragonlord Atarka",
+    {
+      "comment": "==========Selesnya=========="
+    },
+    "Eladamri's Call",
+    "Cosmic Rebirth",
+    {
+      "name": "Selesnya Just-Okay Creatures",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Voice of Resurgence",
+        "Knight of Autumn",
+        "Knight of the Reliquary",
+        "Kitchen Finks",
+        "Gaddock Teeg"
+      ]
+    },
+    {
+      "comment": "==========Orzhov=========="
+    },
+    "Tidehollow Sculler",
+    "Lurrus of the Dream-Den",
+    "Vindicate",
+    "Drana and Linvala",
+    {
+      "comment": "==========Izzet=========="
+    },
+    {
+      "name": "Izzet Commands",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Expressive Iteration", "Prismari Command", "Flame of Anor"]
+    },
+    "Dack Fayden",
+    "Saheeli Rai",
+    "Third Path Iconoclast",
+    "Saheeli, the Sun's Brilliance",
+    {
+      "comment": "==========Golgari=========="
+    },
+    {
+      "name": "Golgari Stuff",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Deathrite Shaman",
+        "Assassin's Trophy",
+        "Deadly Brew",
+        "Glissa Sunslayer",
+        "Rise of the Witch-king"
+      ]
+    },
+    "Mosswood Dreadknight",
+    "Maelstrom Pulse",
+    "Grist, the Hunger Tide",
+    {
+      "comment": "==========Boros=========="
+    },
+    "Figure of Destiny",
+    "Lightning Helix",
+    "Forth Eorlingas!",
+    {
+      "name": "Boros Creatures 3MV",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Rem Karolus, Stalwart Slayer",
+        "Venerable Warsinger",
+        "Éowyn, Fearless Knight",
+        "Comet, Stellar Pup"
+      ]
+    },
+    {
+      "comment": "==========Simic=========="
+    },
+    {
+      "name": "Simic Creatures",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Colossal Skyturtle",
+        "Hydroid Krasis",
+        "Uro, Titan of Nature's Wrath"
+      ]
+    },
+    "Oko, Thief of Crowns",
+    {
+      "comment": "==========Multi=========="
+    },
+    {
+      "name": "Tricolor Good Stuff",
+      "type": "pool",
+      "count": 10,
+      "contents": [
         {
-            "name": "Triomes",
-            "type": "pool",
-            "count": 10,
-            "contents": [
-                "Savai Triome",
-                "Ketria Triome",
-                "Indatha Triome",
-                "Raugrin Triome",
-                "Zagoth Triome",
-                "Ziatora's Proving Ground",
-                "Xander's Lounge",
-                "Jetmir's Garden",
-                "Spara's Headquarters",
-                "Raffine's Tower"
-            ]
+          "name": "Jeskai Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": [
+            "Narset, Enlightened Exile",
+            "Hinata, Dawn-Crowned",
+            "Aragorn, King of Gondor"
+          ]
         },
-        "Ancient Tomb",
-        "Bazaar of Baghdad",
-        "Fabled Passage",
-        "City of Brass",
-        "Mana Confluence",
-        "Gaea's Cradle",
-        "Karakas",
         {
-            "name": "Worst Utility Lands",
-            "type": "pool",
-            "count": 3,
-            "contents": [
-                "Library of Alexandria",
-                "Windbrisk Heights",
-                "Maze of Ith",
-                "City of Traitors",
-                "The Tabernacle at Pendrell Vale",
-                "Glacial Chasm"
-            ]
+          "name": "Sultai Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Zimone and Dina", "Tasigur, the Golden Fang"]
         },
-        "Mishra's Workshop",
-        "Mystic Sanctuary",
-        "Prismatic Vista",
-        "Rishadan Port",
-        "Shelldock Isle",
-        "Strip Mine",
-        "Tolarian Academy",
-        "Urza's Saga"
-    ]
+        {
+          "name": "Jund Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Ziatora's Envoy", "Soul of Windgrace"]
+        },
+        {
+          "name": "Mardu Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Alesha, Who Smiles at Death", "Queen Marchesa"]
+        },
+        {
+          "name": "Grixis Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Kess, Dissident Mage", "Bladecoil Serpent"]
+        },
+        {
+          "name": "Temur Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Song of Creation", "The First Tyrannic War"]
+        },
+        {
+          "name": "Naya Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["Fleetfoot Dancer", "Rocco, Street Chef"]
+        },
+        "Siege Rhino",
+        "Nimble Larcenist",
+        "Wargate"
+      ]
+    },
+    "Leovold, Emissary of Trest",
+    "Omnath, Locus of Creation",
+    "Golos, Tireless Pilgrim",
+    {
+      "name": "Returned Kings",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Kenrith, the Returned King", "Aragorn, the Uniter"]
+    },
+    {
+      "comment": "==========Colorless=========="
+    },
+    {
+      "name": "Talismans",
+      "type": "pool",
+      "count": 10,
+      "contents": [
+        "Talisman of Progress",
+        "Talisman of Dominance",
+        "Talisman of Indulgence",
+        "Talisman of Impulse",
+        "Talisman of Unity",
+        "Talisman of Hierarchy",
+        "Talisman of Creativity",
+        "Talisman of Resilience",
+        "Talisman of Conviction",
+        "Talisman of Curiosity"
+      ]
+    },
+    {
+      "name": "X Creatures",
+      "type": "pool",
+      "count": 2,
+      "contents": ["Stonecoil Serpent", "Walking Ballista"]
+    },
+    "Signal Pest",
+    {
+      "name": "Colorless Utility Creatures 2MV",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Phyrexian Revoker", "Containment Construct"]
+    },
+    "Metalworker",
+    "Myr Battlesphere",
+    "Blightsteel Colossus",
+    "Emrakul, the Aeons Torn",
+    {
+      "name": "Worst Eldrazi Targets",
+      "type": "pool",
+      "count": 2,
+      "contents": [
+        "Kozilek, Butcher of Truth",
+        "Ulamog, the Ceaseless Hunger",
+        "Ulamog, the Infinite Gyre",
+        "Emrakul, the Promised End"
+      ]
+    },
+    "Karn, Scion of Urza",
+    "Karn Liberated",
+    "Ugin, the Spirit Dragon",
+    "Black Lotus",
+    "Chrome Mox",
+    "Everflowing Chalice",
+    "Lion's Eye Diamond",
+    "Lotus Bloom",
+    "Lotus Petal",
+    "Mana Crypt",
+    "Mox Diamond",
+    "Mana Vault",
+    "Aether Vial",
+    "Luxior, Giada's Gift",
+    "Manifold Key",
+    "Voltaic Key",
+    "Sensei's Divining Top",
+    "Shadowspear",
+    "Skullclamp",
+    "Sol Ring",
+    "Grim Monolith",
+    "Horn of the Mark",
+    "Smuggler's Copter",
+    "Time Vault",
+    "Umezawa's Jitte",
+    "Winter Orb",
+    "Basalt Monolith",
+    "Coalition Relic",
+    "Crucible of Worlds",
+    "Sword of Fire and Ice",
+    "Tangle Wire",
+    "Worn Powerstone",
+    "Sonic Screwdriver",
+    "Sarevok's Tome",
+    "The One Ring",
+    "Thran Dynamo",
+    "Batterskull",
+    "Memory Jar",
+    {
+      "comment": "==========Multicolored Pools=========="
+    },
+    {
+      "name": "Reanimation Targets",
+      "type": "pool",
+      "count": 4,
+      "contents": [
+        "Griselbrand",
+        "Hogaak, Arisen Necropolis",
+        "Sphinx of the Steel Wind",
+        "Atraxa, Grand Unifier"
+      ]
+    },
+    {
+      "comment": "==========Lands=========="
+    },
+    {
+      "name": "Original Duals",
+      "type": "pool",
+      "count": 10,
+      "contents": [
+        "Tropical Island",
+        "Badlands",
+        "Bayou",
+        "Plateau",
+        "Savannah",
+        "Scrubland",
+        "Taiga",
+        "Tundra",
+        "Underground Sea",
+        "Volcanic Island"
+      ]
+    },
+    {
+      "name": "Shocks",
+      "type": "pool",
+      "count": 10,
+      "contents": [
+        "Hallowed Fountain",
+        "Watery Grave",
+        "Blood Crypt",
+        "Stomping Ground",
+        "Temple Garden",
+        "Godless Shrine",
+        "Steam Vents",
+        "Overgrown Tomb",
+        "Sacred Foundry",
+        "Breeding Pool"
+      ]
+    },
+    {
+      "name": "Fetches",
+      "type": "pool",
+      "count": 10,
+      "contents": [
+        "Flooded Strand",
+        "Polluted Delta",
+        "Bloodstained Mire",
+        "Wooded Foothills",
+        "Windswept Heath",
+        "Marsh Flats",
+        "Scalding Tarn",
+        "Verdant Catacombs",
+        "Arid Mesa",
+        "Misty Rainforest"
+      ]
+    },
+    {
+      "comment": "===Man Duals==="
+    },
+    "Celestial Colonnade",
+    "Creeping Tar Pit",
+    "Raging Ravine",
+    "Hissing Quagmire",
+    "Needle Spires",
+    {
+      "comment": "===Fast Lands==="
+    },
+    "Seachrome Coast",
+    "Darkslick Shores",
+    "Blackcleave Cliffs",
+    "Copperline Gorge",
+    "Razorverge Thicket",
+    "Concealed Courtyard",
+    "Spirebluff Canal",
+    "Blooming Marsh",
+    "Inspiring Vantage",
+    "Botanical Sanctum",
+    {
+      "name": "Triomes",
+      "type": "pool",
+      "count": 10,
+      "contents": [
+        "Savai Triome",
+        "Ketria Triome",
+        "Indatha Triome",
+        "Raugrin Triome",
+        "Zagoth Triome",
+        "Ziatora's Proving Ground",
+        "Xander's Lounge",
+        "Jetmir's Garden",
+        "Spara's Headquarters",
+        "Raffine's Tower"
+      ]
+    },
+    "Ancient Tomb",
+    "Bazaar of Baghdad",
+    "Fabled Passage",
+    "City of Brass",
+    "Mana Confluence",
+    "Gaea's Cradle",
+    "Karakas",
+    {
+      "name": "Worst Utility Lands",
+      "type": "pool",
+      "count": 3,
+      "contents": [
+        "Library of Alexandria",
+        "Windbrisk Heights",
+        "Maze of Ith",
+        "City of Traitors",
+        "The Tabernacle at Pendrell Vale",
+        "Glacial Chasm"
+      ]
+    },
+    "Mishra's Workshop",
+    "Mystic Sanctuary",
+    "Prismatic Vista",
+    "Rishadan Port",
+    "Shelldock Isle",
+    "Strip Mine",
+    "Tolarian Academy",
+    "Urza's Saga"
+  ]
 }
