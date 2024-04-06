@@ -143,7 +143,12 @@
       "count": 2,
       "contents": ["Armageddon", "Ravages of War"]
     },
-    "Helping Hand",
+    {
+      "name": "White Unearths",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Helping Hand", "Call a Surprise Witness"]
+    },
     "Enlightened Tutor",
     "Ephemerate",
     "Path to Exile",
