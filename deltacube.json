@@ -1265,7 +1265,12 @@
     "Creeping Tar Pit",
     "Raging Ravine",
     "Hissing Quagmire",
-    "Needle Spires",
+    {
+      "name": "Boros Men That Are Also Lands",
+      "type": "pool",
+      "count": 1,
+      "contents": ["Needle Spires", "Restless Bivouac"]
+    },
     {
       "comment": "===Fast Lands==="
     },
