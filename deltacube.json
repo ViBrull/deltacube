@@ -57,7 +57,7 @@
     {
       "name": "Worst White Weenies 3MV",
       "type": "pool",
-      "count": 8,
+      "count": 7,
       "contents": [
         "Elite Spellbinder",
         "Skyclave Apparition",
@@ -106,8 +106,12 @@
     {
       "name": "White Planeswalkers 3-4MV",
       "type": "pool",
-      "count": 2,
-      "contents": ["Gideon Blackblade", "Gideon, Ally of Zendikar"]
+      "count": 3,
+      "contents": [
+        "Gideon Blackblade",
+        "Gideon, Ally of Zendikar",
+        "The Wandering Emperor"
+      ]
     },
     "The Eternal Wanderer",
     {
