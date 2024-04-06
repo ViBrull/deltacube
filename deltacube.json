@@ -87,7 +87,12 @@
       "name": "Worst White Donkeys 4MV",
       "type": "pool",
       "count": 3,
-      "contents": ["Hero of Bladehold", "Myrel, Shield of Argive", "Elesh Norn"]
+      "contents": [
+        "Hero of Bladehold",
+        "Myrel, Shield of Argive",
+        "Elesh Norn",
+        "Thousand Moons Smithy"
+      ]
     },
     "Seasoned Dungeoneer",
     "Serra Paragon",
@@ -105,7 +110,7 @@
     {
       "name": "Worst White Wraths",
       "type": "pool",
-      "count": 2,
+      "count": 1,
       "contents": [
         "Doomskar",
         "Urza's Ruinous Blast",
@@ -138,6 +143,7 @@
       "count": 2,
       "contents": ["Armageddon", "Ravages of War"]
     },
+    "Helping Hand",
     "Enlightened Tutor",
     "Ephemerate",
     "Path to Exile",
