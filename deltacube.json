@@ -647,9 +647,9 @@
       ]
     },
     {
-      "name": "Elves 2MV",
+      "name": "Green Creatures 2MV",
       "type": "pool",
-      "count": 4,
+      "count": 5,
       "contents": [
         "Lotus Cobra",
         "Paradise Druid",
@@ -658,13 +658,14 @@
         "Wall of Roots",
         "Three Visits",
         "Biophagus",
-        "Llanowar Loamspeaker"
+        "Llanowar Loamspeaker",
+        "Aloe Alchemist"
       ]
     },
     {
       "name": "Lands Creatures 1-2MV",
       "type": "pool",
-      "count": 2,
+      "count": 1,
       "contents": ["Elvish Reclaimer", "Sakura-Tribe Elder"]
     },
     "Devoted Druid",
