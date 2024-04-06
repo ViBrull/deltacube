@@ -56,7 +56,7 @@
     {
       "name": "Worst White Weenies 3MV",
       "type": "pool",
-      "count": 6,
+      "count": 7,
       "contents": [
         "Elite Spellbinder",
         "Skyclave Apparition",
@@ -71,13 +71,14 @@
         "Extraction Specialist",
         "Phyrexian Censor",
         "Anointed Peacekeeper",
-        "Boromir, Warden of the Tower"
+        "Boromir, Warden of the Tower",
+        "Monastery Mentor",
+        "Wojek Investigator"
       ]
     },
     "Werefox Bodyguard",
     "Brutal Cathar",
     "White Plume Adventurer",
-    "Monastery Mentor",
     "Porcelain Legionnaire",
     "Ranger-Captain of Eos",
     "Recruiter of the Guard",
