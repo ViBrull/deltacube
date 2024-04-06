@@ -189,14 +189,10 @@
     "Snapcaster Mage",
     "Surge Engine",
     {
-      "name": "Worst Blue Creatures 3MV",
+      "name": "Blue Combo Creatures 3MV",
       "type": "pool",
       "count": 1,
-      "contents": [
-        "Brazen Borrower",
-        "Nimble Obstructionist",
-        "Tameshi, Reality Architect"
-      ]
+      "contents": ["Forensic Gadgeteer", "Tameshi, Reality Architect"]
     },
     "Deceiver Exarch",
     "Emry, Lurker of the Loch",
@@ -219,6 +215,7 @@
         "Chrome Host Seedshark",
         "Feywild Caretaker",
         "Horned Loch-Whale",
+        "Brazen Borrower",
         "Tishana's Tidebinder"
       ]
     },
