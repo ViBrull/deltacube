@@ -322,11 +322,12 @@
     {
       "name": "Black Creatures 1MV",
       "type": "pool",
-      "count": 1,
+      "count": 2,
       "contents": [
         "Bloodsoaked Champion",
         "Okiba Reckoner Raid",
-        "Stalactite Stalker"
+        "Stalactite Stalker",
+        "Forsaken Miner"
       ]
     },
     {
@@ -408,12 +409,7 @@
       "count": 2,
       "contents": ["Ravenous Chupacabra", "Shriekmaw"]
     },
-    {
-      "name": "Black Donkeys 6MV",
-      "type": "pool",
-      "count": 2,
-      "contents": ["Grave Titan", "Massacre Wurm"]
-    },
+    "Grave Titan",
     "Liliana of the Veil",
     {
       "name": "Liliana 5MV",
