@@ -146,10 +146,14 @@
       "contents": ["Armageddon", "Ravages of War"]
     },
     {
-      "name": "White Unearths",
+      "name": "Random White Spells",
       "type": "pool",
       "count": 1,
-      "contents": ["Helping Hand", "Call a Surprise Witness"]
+      "contents": [
+        "Helping Hand",
+        "Call a Surprise Witness",
+        "Requisition Raid"
+      ]
     },
     "Enlightened Tutor",
     "Ephemerate",
