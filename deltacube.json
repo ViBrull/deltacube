@@ -169,7 +169,7 @@
     {
       "name": "Worst Blue Creatures 2MV",
       "type": "pool",
-      "count": 8,
+      "count": 7,
       "contents": [
         "Looter il-Kor",
         "Thieving Skydiver",
@@ -264,6 +264,7 @@
     "Spell Pierce",
     "Brain Freeze",
     "Counterspell",
+    "Jace Reawakened",
     "Mana Drain",
     "Mana Leak",
     "Miscalculation",
