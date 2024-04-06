@@ -57,7 +57,7 @@
     {
       "name": "Worst White Weenies 3MV",
       "type": "pool",
-      "count": 7,
+      "count": 8,
       "contents": [
         "Elite Spellbinder",
         "Skyclave Apparition",
@@ -74,7 +74,8 @@
         "Anointed Peacekeeper",
         "Boromir, Warden of the Tower",
         "Monastery Mentor",
-        "Wojek Investigator"
+        "Wojek Investigator",
+        "Claim Jumper"
       ]
     },
     "Werefox Bodyguard",
@@ -101,7 +102,6 @@
     "Palace Jailer",
     "Felidar Guardian",
     "Restoration Angel",
-    "Baneslayer Angel",
     {
       "name": "White Planeswalkers 3-4MV",
       "type": "pool",
