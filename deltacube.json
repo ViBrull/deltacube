@@ -263,6 +263,7 @@
     "Brainstorm",
     "Mystical Tutor",
     "Spell Pierce",
+    "Stifle",
     "Brain Freeze",
     "Counterspell",
     "Muddle the Mixture",
@@ -277,7 +278,7 @@
     {
       "name": "Big Blue Spells",
       "type": "pool",
-      "count": 5,
+      "count": 4,
       "contents": [
         "Cryptic Command",
         "Mystic Confluence",
