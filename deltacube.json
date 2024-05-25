@@ -658,12 +658,7 @@
         "Aloe Alchemist"
       ]
     },
-    {
-      "name": "Lands Creatures 1-2MV",
-      "type": "pool",
-      "count": 1,
-      "contents": ["Elvish Reclaimer", "Sakura-Tribe Elder"]
-    },
+    "Elvish Reclaimer",
     "Devoted Druid",
     {
       "name": "Best Lands Creatures 3-4MV",
@@ -732,18 +727,7 @@
         "Ghalta, Stampede Tyrant"
       ]
     },
-    {
-      "name": "Green Sprinkles",
-      "type": "pool",
-      "count": 1,
-      "contents": [
-        "Traverse the Ulvenwald",
-        "Once Upon a Time",
-        "Summoner's Pact",
-        "Invasion of Ixalan",
-        "Hard-Hitting Question"
-      ]
-    },
+    "Sylvan Scrying",
     "Crop Rotation",
     "Vines of Vastwood",
     "Boseiju, Who Endures",
@@ -837,14 +821,14 @@
     },
     "Eladamri's Call",
     "Cosmic Rebirth",
+    "Knight of the Reliquary",
     {
       "name": "Selesnya Just-Okay Creatures",
       "type": "pool",
-      "count": 3,
+      "count": 2,
       "contents": [
         "Voice of Resurgence",
         "Knight of Autumn",
-        "Knight of the Reliquary",
         "Kitchen Finks",
         "Gaddock Teeg",
         "Gylwain, Casting Director"
@@ -1037,8 +1021,10 @@
     "Lotus Petal",
     "Mana Crypt",
     "Mox Diamond",
+    "Zuran Orb",
     "Mana Vault",
     "Aether Vial",
+    "Expedition Map",
     "Luxior, Giada's Gift",
     "Manifold Key",
     "Voltaic Key",
@@ -1133,14 +1119,6 @@
       ]
     },
     {
-      "comment": "===Playrate Balancing Lands==="
-    },
-    "Meticulous Archive",
-    "Shadowy Backstreet",
-    "Inspiring Vantage",
-    "Mount Doom",
-    "Underground Mortuary",
-    {
       "comment": "===Default Fast/Horizon Lands==="
     },
     "Seachrome Coast",
@@ -1177,21 +1155,13 @@
     "Mana Confluence",
     "Gaea's Cradle",
     "Karakas",
-    {
-      "name": "Worst Utility Lands",
-      "type": "pool",
-      "count": 5,
-      "contents": [
         "Library of Alexandria",
-        "Maze of Ith",
         "City of Traitors",
         "The Tabernacle at Pendrell Vale",
         "Glacial Chasm",
         "Mishra's Workshop",
-        "Rishadan Port",
-        "Otawara, Soaring City"
-      ]
-    },
+    "Tolaria West",
+    "Urza's Cave",
     "Mystic Sanctuary",
     "Prismatic Vista",
     "Shelldock Isle",
