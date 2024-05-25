@@ -894,17 +894,7 @@
     "Figure of Destiny",
     "Lightning Helix",
     "Forth Eorlingas!",
-    {
-      "name": "Boros Creatures 3MV",
-      "type": "pool",
-      "count": 1,
-      "contents": [
-        "Rem Karolus, Stalwart Slayer",
-        "Venerable Warsinger",
-        "Éowyn, Fearless Knight",
-        "Comet, Stellar Pup"
-      ]
-    },
+    "Comet, Stellar Pup",
     {
       "comment": "==========Simic=========="
     },
