@@ -727,6 +727,18 @@
         "Ghalta, Stampede Tyrant"
       ]
     },
+    {
+      "name": "Green Sprinkles",
+      "type": "pool",
+      "count": 1,
+      "contents": [
+        "Traverse the Ulvenwald",
+        "Once Upon a Time",
+        "Summoner's Pact",
+        "Invasion of Ixalan",
+        "Hard-Hitting Question"
+      ]
+    },
     "Sylvan Scrying",
     "Crop Rotation",
     "Vines of Vastwood",
