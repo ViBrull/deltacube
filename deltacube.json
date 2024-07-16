@@ -25,29 +25,10 @@
     "Isamaru, Hound of Konda",
     "Mother of Runes",
     "Student of Warfare",
-    {
-      "name": "Worst White Weenies 2MV",
-      "type": "pool",
-      "count": 4,
-      "contents": [
-        "Leonin Relic-Warder",
-        "Wall of Omens",
-        "Tithe Taker",
-        "Killian, Ink Duelist",
-        "Giada, Font of Hope",
-        "Luminarch Aspirant",
-        "Archivist of Oghma",
-        "Autonomous Assembler",
-        "Skrelv's Hive",
-        "Glimmer Lens",
-        {
-          "name": "Magecraft White Weenies 2MV",
-          "type": "pool",
-          "count": 1,
-          "contents": ["Seeker of the Way", "Leonin Lightscribe"]
-        }
-      ]
-    },
+    "Phelia, Exuberant Shepherd",
+    "Ajani, Nacatl Pariah",
+    "Luminarch Aspirant",
+    "White Orchid Phantom",
     "Adanto Vanguard",
     "Selfless Spirit",
     "Spirit of the Labyrinth",
@@ -115,21 +96,9 @@
     },
     "The Eternal Wanderer",
     {
-      "name": "Worst White Wraths",
-      "type": "pool",
-      "count": 1,
-      "contents": [
-        "Doomskar",
-        "Urza's Ruinous Blast",
-        "Terminus",
-        "Day of Judgment",
-        "Sunfall"
-      ]
-    },
-    {
       "name": "Worst White Single Target",
       "type": "pool",
-      "count": 2,
+      "count": 1,
       "contents": [
         "Oblivion Ring",
         "Mana Tithe",
@@ -140,7 +109,6 @@
         "Lay Down Arms",
         "Ossification",
         "Seal from Existence",
-        "Reprieve",
         "Stroke of Midnight"
       ]
     },
@@ -150,16 +118,6 @@
       "count": 2,
       "contents": ["Armageddon", "Ravages of War"]
     },
-    {
-      "name": "Random White Spells",
-      "type": "pool",
-      "count": 1,
-      "contents": [
-        "Helping Hand",
-        "Call a Surprise Witness",
-        "Requisition Raid"
-      ]
-    },
     "Enlightened Tutor",
     "Ephemerate",
     "Path to Exile",
@@ -167,6 +125,9 @@
     "Swift Reconfiguration",
     "Balance",
     "Recommission",
+    "Helping Hand",
+    "Call a Surprise Witness",
+    "Reprieve",
     "Flowering of the White Tree",
     "Council's Judgment",
     "Damn",
@@ -175,10 +136,11 @@
     {
       "comment": "==========Blue=========="
     },
+    "Tamiyo, Inquisitive Student",
     {
       "name": "Worst Blue Creatures 2MV",
       "type": "pool",
-      "count": 7,
+      "count": 6,
       "contents": [
         "Looter il-Kor",
         "Thieving Skydiver",
@@ -244,7 +206,7 @@
     {
       "name": "Worst Blue Cantrips",
       "type": "pool",
-      "count": 2,
+      "count": 1,
       "contents": [
         "Consider",
         "Impulse",
@@ -275,20 +237,18 @@
     "Force of Negation",
     "Frantic Search",
     "Thirst for Discovery",
+    "Amphibian Downpour",
     {
       "name": "Big Blue Spells",
       "type": "pool",
-      "count": 4,
+      "count": 3,
       "contents": [
-        "Cryptic Command",
-        "Mystic Confluence",
         "Commit // Memory",
-        "Gifts Ungiven",
         "Fact or Fiction",
         "Memory Deluge",
-        "Shark Typhoon",
         "Torrential Gearhulk",
-        "Intrude on the Mind"
+        "Intrude on the Mind",
+        "Shadow of the Second Sun"
       ]
     },
     "Force of Will",
@@ -324,12 +284,12 @@
     {
       "name": "Black Creatures 1MV",
       "type": "pool",
-      "count": 2,
+      "count": 4,
       "contents": [
         "Bloodsoaked Champion",
-        "Okiba Reckoner Raid",
         "Stalactite Stalker",
-        "Forsaken Miner"
+        "Forsaken Miner",
+        "Nethergoyf"
       ]
     },
     {
@@ -360,18 +320,8 @@
     "Scrapheap Scrounger",
     "Dark Confidant",
     "Pack Rat",
-    {
-      "name": "Worst Black Donkeys 3MV",
-      "type": "pool",
-      "count": 3,
-      "contents": [
-        "Ammit Eternal",
-        "Drana, Liberator of Malakir",
-        "Phyrexian Fleshgorger",
-        "Sedgemoor Witch",
-        "Lord Skitter, Sewer King"
-      ]
-    },
+    "Phyrexian Fleshgorger",
+    "Barrowgoyf",
     "Bone Shredder",
     {
       "name": "Black Velocity Creatures 3MV",
@@ -390,21 +340,7 @@
     "Stinkweed Imp",
     "Yawgmoth, Thran Physician",
     "Vicious Battlerager",
-    {
-      "name": "Black Donkeys 4-5MV",
-      "type": "pool",
-      "count": 2,
-      "contents": [
-        "Rankle, Master of Pranks",
-        "Spawn of Mayhem",
-        "Gisa, Glorious Resurrector",
-        "Bloodvial Purveyor",
-        "Sheoldred, the Apocalypse",
-        "Junji, the Midnight Sky",
-        "Sheoldred",
-        "Terror of Towashi"
-      ]
-    },
+    "Sheoldred, the Apocalypse",
     {
       "name": "Black Control Creatures 4-5MV",
       "type": "pool",
@@ -413,12 +349,6 @@
     },
     "Grave Titan",
     "Liliana of the Veil",
-    {
-      "name": "Liliana 5MV",
-      "type": "pool",
-      "count": 1,
-      "contents": ["Liliana Vess", "Liliana, Death's Majesty"]
-    },
     "Dark Ritual",
     "Demonic Consultation",
     "Entomb",
@@ -427,17 +357,17 @@
     "Cabal Ritual",
     "Sheoldred's Edict",
     "Animate Dead",
+    "Chthonian Nightmare",
     "Recurring Nightmare",
     "Reanimate",
     "Bitter Triumph",
     "Dismember",
-    "Hero's Downfall",
+    "Breathe Your Last",
     {
       "name": "Worst Black Single Target",
       "type": "pool",
       "count": 3,
       "contents": [
-        "Soul Shatter",
         "Baleful Mastery",
         "Long Goodbye",
         "Bone Shards",
@@ -446,12 +376,12 @@
         "Soul Transfer",
         "Snuff Out",
         "Bloodchief's Thirst",
-        "Pile On",
         "Heartless Act",
         "Shoot the Sheriff"
       ]
     },
     "Duress",
+    "Unearth",
     "Thoughtseize",
     "Inquisition of Kozilek",
     "Imperial Seal",
@@ -460,18 +390,6 @@
     "Demonic Tutor",
     "Profane Tutor",
     "Hymn to Tourach",
-    {
-      "name": "Black Pain Draw",
-      "type": "pool",
-      "count": 1,
-      "contents": [
-        "Night's Whisper",
-        "Village Rites",
-        "Raise the Draugr",
-        "Call of the Ring",
-        "Tarrian's Journal"
-      ]
-    },
     "Beseech the Mirror",
     "Toxic Deluge",
     "Yawgmoth's Will",
@@ -540,7 +458,7 @@
     {
       "name": "Red Donkeys 4MV",
       "type": "pool",
-      "count": 5,
+      "count": 4,
       "contents": [
         "Flametongue Kavu",
         "Stingerback Terror",
@@ -567,7 +485,8 @@
         "Cathartic Pyre",
         "Searing Spear",
         "Trumpeting Carnosaur",
-        "Monstrous Rage"
+        "Monstrous Rage",
+        "Galvanic Discharge"
       ]
     },
     {
@@ -616,48 +535,26 @@
     {
       "name": "Best Elves 1MV",
       "type": "pool",
-      "count": 6,
+      "count": 10,
       "contents": [
         "Birds of Paradise",
         "Gilded Goose",
         "Joraga Treespeaker",
         "Utopia Sprawl",
         "Noble Hierarch",
-        "Ignoble Hierarch"
-      ]
-    },
-    {
-      "name": "Worst Elves 1MV",
-      "type": "pool",
-      "count": 5,
-      "contents": [
-        "Arbor Elf",
+        "Ignoble Hierarch",
         "Elvish Mystic",
-        "Fyndhorn Elves",
         "Llanowar Elves",
-        "Avacyn's Pilgrim",
-        "Elves of Deep Shadow",
-        "Dryad Arbor",
-        "Search for Tomorrow",
+        "Fyndhorn Elves",
         "Delighted Halfling"
       ]
     },
-    {
-      "name": "Green Creatures 2MV",
-      "type": "pool",
-      "count": 5,
-      "contents": [
-        "Lotus Cobra",
-        "Paradise Druid",
-        "Rofellos, Llanowar Emissary",
-        "Sylvan Caryatid",
-        "Wall of Roots",
-        "Three Visits",
-        "Biophagus",
-        "Llanowar Loamspeaker",
-        "Aloe Alchemist"
-      ]
-    },
+    "Grist, Voracious Larva",
+    "Three Visits",
+    "Biophagus",
+    "Lotus Cobra",
+    "Sylvan Caryatid",
+    "Springheart Nantuko",
     "Elvish Reclaimer",
     "Devoted Druid",
     {
@@ -680,10 +577,11 @@
       "count": 3,
       "contents": [
         "Prowling Serpopard",
-        "Ornery Tumblewagg",
+        "Eladamri, Korvecdal",
         "Bloated Contaminator"
       ]
     },
+    "Six",
     "Eternal Witness",
     "Reclamation Sage",
     "Tireless Tracker",
@@ -708,11 +606,9 @@
         "Workshop Warchief",
         "Vivien, Monsters' Advocate",
         "Elder Gargaroth",
-        "Ojer Kaslem, Deepest Growth",
-        "Vorinclex"
+        "Vorinclex // The Grand Evolution"
       ]
     },
-    "Acidic Slime",
     "Timeless Witness",
     "Primeval Titan",
     {
@@ -751,12 +647,7 @@
     "Up the Beanstalk",
     "Regrowth",
     "Bala Ged Recovery",
-    {
-      "name": "Green Draw",
-      "type": "pool",
-      "count": 1,
-      "contents": ["Harmonize", "Invasion of Shandalar"]
-    },
+    "Birthing Ritual",
     "Natural Order",
     "Turntimber Symbiosis",
     "Mox Emerald",
@@ -790,10 +681,10 @@
     },
     "Baleful Strix",
     {
-      "name": "Dimir 3-Drops",
+      "name": "Dimir Stuff",
       "type": "pool",
       "count": 1,
-      "contents": ["Kaito Shizuki", "Thief of Sanity", "Halo Forager"]
+      "contents": ["Kaito Shizuki", "Thief of Sanity", "Halo Forager", "Psychic Frog"]
     },
     {
       "name": "Dimir Value",
@@ -865,7 +756,7 @@
     "Dack Fayden",
     "Saheeli Rai",
     "Third Path Iconoclast",
-    "Saheeli, the Sun's Brilliance",
+    "Invert Polarity",
     {
       "comment": "==========Golgari=========="
     },
@@ -890,6 +781,7 @@
     "Figure of Destiny",
     "Lightning Helix",
     "Forth Eorlingas!",
+    "Phlage, Titan of Fire's Fury",
     "Comet, Stellar Pup",
     {
       "comment": "==========Simic=========="
@@ -897,15 +789,15 @@
     {
       "name": "Simic Creatures",
       "type": "pool",
-      "count": 2,
+      "count": 1,
       "contents": [
         "Unruly Krasis",
-        "Hydroid Krasis",
         "Uro, Titan of Nature's Wrath",
-        "Oko, the Ringleader"
       ]
     },
+    "Nadu, Winged Wisdom",
     "Oko, Thief of Crowns",
+    "Planar Genesis",
     {
       "comment": "==========Multi=========="
     },
@@ -919,8 +811,6 @@
           "type": "pool",
           "count": 1,
           "contents": [
-            "Narset, Enlightened Exile",
-            "Hinata, Dawn-Crowned",
             "Aragorn, King of Gondor"
           ]
         },
@@ -960,7 +850,12 @@
           "count": 1,
           "contents": ["Fleetfoot Dancer", "Rocco, Street Chef"]
         },
-        "Siege Rhino",
+        {
+          "name": "Abzan Stuff",
+          "type": "pool",
+          "count": 1,
+          "contents": ["The Necrobloom", "Siege Rhino"]
+        },
         "Nimble Larcenist",
         "Wargate"
       ]
