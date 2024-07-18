@@ -7,7 +7,7 @@
     {
       "name": "Worst White Weenies 1MV",
       "type": "pool",
-      "count": 6,
+      "count": 5,
       "contents": [
         "Giant Killer",
         "Thraben Inspector",
@@ -18,6 +18,7 @@
         "Ruin-Lurker Bat"
       ]
     },
+    "Nomads En-Kor",
     "Esper Sentinel",
     "Recruitment Officer",
     "Skrelv, Defector Mite",
@@ -142,12 +143,11 @@
       "type": "pool",
       "count": 6,
       "contents": [
-        "Looter il-Kor",
         "Thieving Skydiver",
+        "Faerie Mastermind",
         "Riftwing Cloudskate",
         "Sea Gate Stormcaller",
         "Thing in the Ice",
-        "Baral, Chief of Compliance",
         "Ledger Shredder",
         "Jace, Vryn's Prodigy",
         "Phantasmal Image",
@@ -157,6 +157,7 @@
         "Duelist of the Mind"
       ]
     },
+    "Cephalid Illusionist",
     "Corridor Monitor",
     "Thassa's Oracle",
     "Snapcaster Mage",
@@ -179,15 +180,12 @@
       "type": "pool",
       "count": 5,
       "contents": [
-        "Glen Elendra Archmage",
         "Murktide Regent",
         "Vendilion Clique",
         "True-Name Nemesis",
         "Phyrexian Metamorph",
-        "Unctus, Grand Metatect",
         "Chrome Host Seedshark",
         "Feywild Caretaker",
-        "Horned Loch-Whale",
         "Brazen Borrower",
         "Tishana's Tidebinder",
         "Geralf, the Fleshwright"
@@ -259,19 +257,6 @@
     "Time Walk",
     "Timetwister",
     "Tinker",
-    {
-      "name": "Big Blue Turns",
-      "type": "pool",
-      "count": 2,
-      "contents": [
-        "Capture of Jingzhou",
-        "Time Warp",
-        "Temporal Manipulation",
-        "Temporal Mastery",
-        "Nexus of Fate",
-        "Alrund's Epiphany"
-      ]
-    },
     "Reenact the Crime",
     "Time Spiral",
     "Upheaval",
@@ -600,7 +585,7 @@
     {
       "name": "Green Does Stuff 4-5MV",
       "type": "pool",
-      "count": 4,
+      "count": 5,
       "contents": [
         "Garruk Wildspeaker",
         "Workshop Warchief",
@@ -649,7 +634,6 @@
     "Bala Ged Recovery",
     "Birthing Ritual",
     "Natural Order",
-    "Turntimber Symbiosis",
     "Mox Emerald",
     "Birthing Pod",
     "Conduit of Worlds",
@@ -933,6 +917,7 @@
     "Aether Vial",
     "Expedition Map",
     "Luxior, Giada's Gift",
+    "Shuko",
     "Manifold Key",
     "Voltaic Key",
     "Sensei's Divining Top",
